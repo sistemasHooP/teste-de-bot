@@ -1,0 +1,1548 @@
+[2026-05-23T02:38:57.232Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T02:38:57.241Z] [INFO] Banco SQLite fechado.
+[2026-05-23T02:41:26.087Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T02:41:26.091Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T02:41:56.667Z] [INFO] QR Code recebido. Escaneie pelo WhatsApp do celular.
+[2026-05-23T02:42:39.904Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:42:39.906Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:42:39.909Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:42:39.911Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:42:39.913Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:42:41.124Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T02:45:12.542Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:45:12.544Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:45:12.546Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:45:12.547Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:45:12.549Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:45:12.550Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:45:12.803Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T02:45:12.805Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T02:45:12.807Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T02:45:12.809Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T02:45:12.810Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T02:45:12.811Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T02:45:13.442Z] [WARN] WhatsApp desconectado: LOGOUT
+[2026-05-23T02:45:13.525Z] [ERROR] Promise rejeitada sem tratamento: Error: Execution context was destroyed, most likely because of a navigation.
+    at rewriteError (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\ExecutionContext.js:457:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async #evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\ExecutionContext.js:389:60)
+    at async ExecutionContext.evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\ExecutionContext.js:277:16)
+    at async IsolatedWorld.evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\IsolatedWorld.js:100:16)
+    at async CdpFrame.evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Frame.js:362:20)
+    at async CdpPage.evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:830:20)
+    at async Client.getWWebVersion (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:1310:16)
+    at async Client.inject (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:142:25)
+    at async C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:503:13
+[2026-05-23T02:45:16.582Z] [ERROR] Promise rejeitada sem tratamento: Error: Attempted to use detached Frame 'E34C61A6F27C09500D9480C40579280E'.
+    at CdpFrame.<anonymous> (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:107:23)
+    at CdpPage.evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:830:43)
+    at Client.inject (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:126:38)
+    at C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:503:24
+[2026-05-23T02:47:01.257Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T02:47:01.260Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T02:47:05.744Z] [INFO] QR Code recebido. Escaneie pelo WhatsApp do celular.
+[2026-05-23T02:47:38.692Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:47:38.697Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:47:38.706Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:47:46.637Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T02:52:23.207Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T02:52:23.225Z] [INFO] Banco SQLite fechado.
+[2026-05-23T02:56:06.203Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T02:56:06.206Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T02:56:12.120Z] [WARN] WhatsApp desconectado: LOGOUT
+[2026-05-23T02:56:18.352Z] [ERROR] Promise rejeitada sem tratamento: Error: Error: EBUSY: resource busy or locked, unlink 'C:\Users\thieg\Documents\BOT\bot-renaly\.wwebjs_auth\session-renaly-bot\lockfile'
+    at C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\authStrategies\LocalAuth.js:65:27
+    at async LocalAuth.logout (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\authStrategies\LocalAuth.js:58:13)
+    at async C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:498:17
+[2026-05-23T02:56:49.008Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T02:56:49.011Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T02:56:52.845Z] [INFO] QR Code recebido. Escaneie pelo WhatsApp do celular.
+[2026-05-23T02:57:24.933Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:57:24.935Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:57:24.937Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:57:24.938Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:57:24.940Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T02:57:25.779Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T02:57:28.638Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:28.682Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.008Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥳🥳🎂🎉🎉
+[2026-05-23T02:57:29.014Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.019Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.024Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Um dia de cada vez 🤌
+[2026-05-23T02:57:29.034Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkjgxVsRGE/?igsh=MW9zcXA0b3oyMnN5bw==
+[2026-05-23T02:57:29.039Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/jeTw-hi6mlc?si=1LI8pJw5yv_bB0Gr
+[2026-05-23T02:57:29.049Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ó Mãe sustenta a minha vida e a vida da minha FAMÍLIA... AMÉM AMÉM AMÉM!!!
+[2026-05-23T02:57:29.054Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.058Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.065Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.073Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O treino hj foi na areia 👏🏼👏🏼
+[2026-05-23T02:57:29.078Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.085Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.090Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYlI5FbsMPe/?igsh=MTM5d2d2b2h3eTE5Mw==
+[2026-05-23T02:57:29.104Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Imagina que parte da sociedade brasileira comemora algo assim? Meu Deus! 
+Despertem!
+[2026-05-23T02:57:29.109Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.115Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.122Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.129Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.141Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mesmo na feira do livro (FLICOOP), assistindo uma reunião extraordinária do NATE/ COINTE...
+[2026-05-23T02:57:29.149Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.154Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.159Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.163Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.171Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.185Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.191Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O melhor Bom Dia do mundo 😍
+[2026-05-23T02:57:29.197Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.202Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.208Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tbt, arraiá dos Desprezados 2019.🔥🌽
+[2026-05-23T02:57:29.214Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.219Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.223Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vendo cama infantil. 
+Nunca usada.
+Com colchão.
+[2026-05-23T02:57:29.227Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🤩🤩😍😍🙏🏾🙏🏾
+[2026-05-23T02:57:29.233Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.237Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Assinada a ordem de serviço para a realização da reforma elétrica da escola Estadual Manoel Severiano. Agradecemos a governadora e ao deputado Francisco pelo compromisso com a educação do nosso município.
+[2026-05-23T02:57:29.244Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.254Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.260Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.268Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.273Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.278Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.285Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minhas crianças ❤️
+[2026-05-23T02:57:29.291Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.294Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mais registro de moradores sobre a Limpeza urbana na Monte Sinai Bairro nossa senhora da conceição! Ta ficando bom
+[2026-05-23T02:57:29.301Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vida boa é essa🐴
+[2026-05-23T02:57:29.306Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Aqui é mulher do campo.
+Kkkk
+[2026-05-23T02:57:29.310Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Deus é perfeito. Tudo que ele manda para humanidade é perfeito🥰
+[2026-05-23T02:57:29.318Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=☘️🌱
+[2026-05-23T02:57:29.323Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minha véia dá de 10000 nas novinhas.kkkk
+[2026-05-23T02:57:29.331Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.340Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Muito obrigada pelo convite ❣️ Seremos sim seus padrinhos... 🥰 Estarei sempre aqui disponível minha Sobrinha/ Comadre/Irmã. Desejo que Deus os abençoe e sejam muito felizes.🙏🏼🙌🏼🙏🏼🙌🏼❤️
+[2026-05-23T02:57:29.352Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Última Passagem de Campinadeira no Milharal que foi plantado a cerca de 35 dias,Em breve se Deus quiser vamos iniciar o plantio das Vazantes, porque é isso que o Verdadeiro Agricultor faz, plantar, cuidar e colher, vale destacar o trabalho árduo do jumento Asa Branca. Aqui é assim Gratidão a Deus e aos que eles designa pra ajudar nos na lida diária.
+[2026-05-23T02:57:29.359Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.367Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Troféus 🏆🏆🏆🏆
+[2026-05-23T02:57:29.384Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Eclesiastes 11:4-5 diz o seguinte, O Agricultor que espera condições perfeitas nunca semeia, se ele ficar observando as nuvens não colhe, Assim como é impossível entender o caminho do vento ou o mistério do bebê no ventre da mãe, também é impossível entender as obras de Deus que faz todas as coisas 🙏🏾
+[2026-05-23T02:57:29.392Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.397Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.404Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Atualização: ainda estou rouca, muita tosse, mas tive uma melhora agora pela tarde. 😷 Espero voltar a ativa na segunda, agradeço por todas orações e mensagens 🥰
+[2026-05-23T02:57:29.419Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.424Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ponto de comércio para alugar em Riachuelo.
+[2026-05-23T02:57:29.432Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.548Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.557Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.672Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.853Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:29.864Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.038Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.054Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tô aceitando de presente 🥳🎉
+[2026-05-23T02:57:30.063Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.072Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.079Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Viva Santa Rita de Cássia
+[2026-05-23T02:57:30.087Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.092Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.095Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.101Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.108Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.112Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.119Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.128Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.133Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.140Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.147Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.156Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.166Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/yIMd1_nPagI?si=hZ8pIRRtQVGMKAO-
+[2026-05-23T02:57:30.172Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.180Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.186Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkcHEzKGRo/?igsh=cDNuNTBpa21lODlw
+[2026-05-23T02:57:30.192Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.201Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.208Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.youtube.com/live/f5A0yyvyW80?si=rjaRwaOtkAU2mayy
+[2026-05-23T02:57:30.218Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.223Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.228Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYXXy7pipKG/?igsh=NnZ0bjNjcG9penZ2
+[2026-05-23T02:57:30.239Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYVXgFDMXxO/?igsh=Njk0MTU5MWZtY255
+[2026-05-23T02:57:30.249Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.255Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.263Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Pq a gente merece 😌
+[2026-05-23T02:57:30.271Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.278Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.283Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.292Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Hoje na FLICOOP
+[2026-05-23T02:57:30.302Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.307Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.314Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Lanche da noite 😊
+[2026-05-23T02:57:30.326Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.341Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.347Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.355Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.360Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.367Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.371Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.376Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.382Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.386Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🧡
+[2026-05-23T02:57:30.396Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.401Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Amoooooo!!! 🤤
+[2026-05-23T02:57:30.406Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Faz parte da dieta! 😅
+[2026-05-23T02:57:30.411Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Santa Rita, intercedei por nós!!! 🌹💞🙏🏻
+[2026-05-23T02:57:30.418Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Equipe do NULLB sempre tão acolhedora e amiga!!!
+[2026-05-23T02:57:30.424Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🌹💞🙏🏻
+[2026-05-23T02:57:30.429Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Primeiro dia do Tríduo em honra à Santa Rita de Cássia | Carnaúba - Riachuelo/RN. 🙏🏻
+[2026-05-23T02:57:30.435Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=1° dia das festividades de Santa Rita de Cássia na Comunidade de Carnaúba 🙏
+[2026-05-23T02:57:30.443Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙏
+[2026-05-23T02:57:30.450Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tudo é do Pai!!! 🙏🏻
+[2026-05-23T02:57:30.457Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥹
+[2026-05-23T02:57:30.467Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥰❤️
+[2026-05-23T02:57:30.473Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.480Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.486Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Boa Noite ja encerramos
+[2026-05-23T02:57:30.489Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.499Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=E assim, todo mês vai uma parte do salário em livros. 😅
+[2026-05-23T02:57:30.503Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Não sou Ariano Suassuna, mas simpatizo muito com cabra😂 ,essa frase ele disse ao primo dele Doutor Manelito Dantas quando recebeu o prêmio da obra escrita Pedra do Reino e decidiram juntos criar cabras, um dos poucos animais que resistem à seca , também conhecida como a vaca do pobre.
+[2026-05-23T02:57:30.509Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.516Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙌🏼
+[2026-05-23T02:57:30.525Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T02:57:30.528Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Encerramos 😊
+[2026-05-23T02:57:34.130Z] [INFO] Evento message: fromMe=false from=43314896199865@lid to=558499210586@c.us body=
+[2026-05-23T02:57:34.270Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=43314896199865@lid remote=43314896199865@lid body=Olá! Seja bem-vindo(a) à Renaly Basílio Estética. 😊
+
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo:
+
+1 - Catálogo de serviços
+2 - Endereço
+3 - Fazer agendamento on-line
+4 - Horário de funcionamento
+5 - Falar com um atendente
+6 - Quiz rápido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas opções novamente.
+[2026-05-23T02:58:47.361Z] [INFO] Evento message: fromMe=false from=88416549081170@lid to=558499210586@c.us body=
+[2026-05-23T02:58:47.662Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=88416549081170@lid remote=88416549081170@lid body=Olá! Seja bem-vindo(a) à Renaly Basílio Estética. 😊
+
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo:
+
+1 - Catálogo de serviços
+2 - Endereço
+3 - Fazer agendamento on-line
+4 - Horário de funcionamento
+5 - Falar com um atendente
+6 - Quiz rápido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas opções novamente.
+[2026-05-23T03:09:57.918Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:09:57.921Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:09:57.922Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=5584999210586
+[2026-05-23T03:10:07.165Z] [WARN] WhatsApp desconectado: LOGOUT
+[2026-05-23T03:10:13.721Z] [ERROR] Promise rejeitada sem tratamento: Error: Attempted to use detached Frame '4806BF9D69C650FB672D251634B9480D'.
+    at CdpFrame.<anonymous> (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:107:23)
+    at CdpPage.evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:830:43)
+    at Client.inject (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:126:38)
+    at C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:503:24
+[2026-05-23T03:10:17.917Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:10:17.920Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:10:17.921Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=5584999210586
+[2026-05-23T03:10:22.281Z] [INFO] QR Code recebido. Escaneie pelo WhatsApp do celular.
+[2026-05-23T03:10:55.171Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:10:55.174Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:10:55.176Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:10:55.178Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:10:55.179Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:10:56.639Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T03:11:00.767Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.773Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.780Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥳🥳🎂🎉🎉
+[2026-05-23T03:11:00.788Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.793Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.801Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Um dia de cada vez 🤌
+[2026-05-23T03:11:00.809Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkjgxVsRGE/?igsh=MW9zcXA0b3oyMnN5bw==
+[2026-05-23T03:11:00.816Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/jeTw-hi6mlc?si=1LI8pJw5yv_bB0Gr
+[2026-05-23T03:11:00.823Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ó Mãe sustenta a minha vida e a vida da minha FAMÍLIA... AMÉM AMÉM AMÉM!!!
+[2026-05-23T03:11:00.828Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.833Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.840Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.845Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O treino hj foi na areia 👏🏼👏🏼
+[2026-05-23T03:11:00.852Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.859Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.865Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYlI5FbsMPe/?igsh=MTM5d2d2b2h3eTE5Mw==
+[2026-05-23T03:11:00.870Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Imagina que parte da sociedade brasileira comemora algo assim? Meu Deus! 
+Despertem!
+[2026-05-23T03:11:00.876Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.885Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.891Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.900Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.909Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mesmo na feira do livro (FLICOOP), assistindo uma reunião extraordinária do NATE/ COINTE...
+[2026-05-23T03:11:00.921Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.929Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.937Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.946Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.953Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.965Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.975Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O melhor Bom Dia do mundo 😍
+[2026-05-23T03:11:00.982Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.988Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:00.996Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tbt, arraiá dos Desprezados 2019.🔥🌽
+[2026-05-23T03:11:01.003Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.009Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.015Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vendo cama infantil. 
+Nunca usada.
+Com colchão.
+[2026-05-23T03:11:01.020Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🤩🤩😍😍🙏🏾🙏🏾
+[2026-05-23T03:11:01.028Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.034Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Assinada a ordem de serviço para a realização da reforma elétrica da escola Estadual Manoel Severiano. Agradecemos a governadora e ao deputado Francisco pelo compromisso com a educação do nosso município.
+[2026-05-23T03:11:01.042Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.048Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.053Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.062Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.069Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.081Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.085Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minhas crianças ❤️
+[2026-05-23T03:11:01.092Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.097Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mais registro de moradores sobre a Limpeza urbana na Monte Sinai Bairro nossa senhora da conceição! Ta ficando bom
+[2026-05-23T03:11:01.101Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vida boa é essa🐴
+[2026-05-23T03:11:01.110Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Aqui é mulher do campo.
+Kkkk
+[2026-05-23T03:11:01.115Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Deus é perfeito. Tudo que ele manda para humanidade é perfeito🥰
+[2026-05-23T03:11:01.120Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=☘️🌱
+[2026-05-23T03:11:01.129Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minha véia dá de 10000 nas novinhas.kkkk
+[2026-05-23T03:11:01.135Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.143Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Muito obrigada pelo convite ❣️ Seremos sim seus padrinhos... 🥰 Estarei sempre aqui disponível minha Sobrinha/ Comadre/Irmã. Desejo que Deus os abençoe e sejam muito felizes.🙏🏼🙌🏼🙏🏼🙌🏼❤️
+[2026-05-23T03:11:01.149Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Última Passagem de Campinadeira no Milharal que foi plantado a cerca de 35 dias,Em breve se Deus quiser vamos iniciar o plantio das Vazantes, porque é isso que o Verdadeiro Agricultor faz, plantar, cuidar e colher, vale destacar o trabalho árduo do jumento Asa Branca. Aqui é assim Gratidão a Deus e aos que eles designa pra ajudar nos na lida diária.
+[2026-05-23T03:11:01.158Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.165Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Troféus 🏆🏆🏆🏆
+[2026-05-23T03:11:01.170Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Eclesiastes 11:4-5 diz o seguinte, O Agricultor que espera condições perfeitas nunca semeia, se ele ficar observando as nuvens não colhe, Assim como é impossível entender o caminho do vento ou o mistério do bebê no ventre da mãe, também é impossível entender as obras de Deus que faz todas as coisas 🙏🏾
+[2026-05-23T03:11:01.178Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.184Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.191Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Atualização: ainda estou rouca, muita tosse, mas tive uma melhora agora pela tarde. 😷 Espero voltar a ativa na segunda, agradeço por todas orações e mensagens 🥰
+[2026-05-23T03:11:01.196Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.203Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ponto de comércio para alugar em Riachuelo.
+[2026-05-23T03:11:01.209Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.214Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.218Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.225Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.231Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.236Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.243Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.247Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tô aceitando de presente 🥳🎉
+[2026-05-23T03:11:01.252Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.260Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.264Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Viva Santa Rita de Cássia
+[2026-05-23T03:11:01.269Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.277Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.281Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.286Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.292Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.296Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.303Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.311Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.317Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.324Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.329Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.334Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.343Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/yIMd1_nPagI?si=hZ8pIRRtQVGMKAO-
+[2026-05-23T03:11:01.349Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.354Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.361Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkcHEzKGRo/?igsh=cDNuNTBpa21lODlw
+[2026-05-23T03:11:01.369Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.377Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.383Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.youtube.com/live/f5A0yyvyW80?si=rjaRwaOtkAU2mayy
+[2026-05-23T03:11:01.387Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.393Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.398Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYXXy7pipKG/?igsh=NnZ0bjNjcG9penZ2
+[2026-05-23T03:11:01.404Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYVXgFDMXxO/?igsh=Njk0MTU5MWZtY255
+[2026-05-23T03:11:01.422Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.448Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.457Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Pq a gente merece 😌
+[2026-05-23T03:11:01.479Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.483Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.510Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.517Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Hoje na FLICOOP
+[2026-05-23T03:11:01.528Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.541Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.546Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Lanche da noite 😊
+[2026-05-23T03:11:01.553Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.565Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.570Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.582Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.590Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.600Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.605Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.610Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.615Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.624Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🧡
+[2026-05-23T03:11:01.629Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.644Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Amoooooo!!! 🤤
+[2026-05-23T03:11:01.650Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Faz parte da dieta! 😅
+[2026-05-23T03:11:01.654Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Santa Rita, intercedei por nós!!! 🌹💞🙏🏻
+[2026-05-23T03:11:01.661Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Equipe do NULLB sempre tão acolhedora e amiga!!!
+[2026-05-23T03:11:01.668Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🌹💞🙏🏻
+[2026-05-23T03:11:01.673Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Primeiro dia do Tríduo em honra à Santa Rita de Cássia | Carnaúba - Riachuelo/RN. 🙏🏻
+[2026-05-23T03:11:01.680Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=1° dia das festividades de Santa Rita de Cássia na Comunidade de Carnaúba 🙏
+[2026-05-23T03:11:01.687Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙏
+[2026-05-23T03:11:01.699Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tudo é do Pai!!! 🙏🏻
+[2026-05-23T03:11:01.714Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥹
+[2026-05-23T03:11:01.722Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥰❤️
+[2026-05-23T03:11:01.733Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.741Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.748Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Boa Noite ja encerramos
+[2026-05-23T03:11:01.753Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.761Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=E assim, todo mês vai uma parte do salário em livros. 😅
+[2026-05-23T03:11:01.766Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Não sou Ariano Suassuna, mas simpatizo muito com cabra😂 ,essa frase ele disse ao primo dele Doutor Manelito Dantas quando recebeu o prêmio da obra escrita Pedra do Reino e decidiram juntos criar cabras, um dos poucos animais que resistem à seca , também conhecida como a vaca do pobre.
+[2026-05-23T03:11:01.773Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.779Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙌🏼
+[2026-05-23T03:11:01.788Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:11:01.812Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Encerramos 😊
+[2026-05-23T03:11:04.803Z] [INFO] Evento message: fromMe=false from=43314896199865@lid to=558499210586@c.us body=
+[2026-05-23T03:11:04.804Z] [WARN] Mensagem ignorada de 43314896199865: telefone fora da lista permitida.
+[2026-05-23T03:11:15.525Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:11:15.526Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:12:33.324Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:12:33.327Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:12:33.328Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:12:40.261Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:13:25.368Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:13:25.371Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:13:25.372Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:13:32.037Z] [WARN] WhatsApp desconectado: LOGOUT
+[2026-05-23T03:13:35.995Z] [ERROR] Promise rejeitada sem tratamento: Error: Attempted to use detached Frame '185AA4250EC62B191A5060F50A25DB8A'.
+    at CdpFrame.<anonymous> (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:107:23)
+    at CdpPage.evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:830:43)
+    at Client.inject (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:126:38)
+    at C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:503:24
+[2026-05-23T03:13:38.729Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:13:38.732Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:13:38.733Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:13:43.045Z] [INFO] QR Code recebido. Escaneie pelo WhatsApp do celular.
+[2026-05-23T03:14:09.814Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:14:09.816Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:14:09.818Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:14:09.820Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:14:09.821Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:14:10.663Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T03:14:13.721Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.727Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.733Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥳🥳🎂🎉🎉
+[2026-05-23T03:14:13.743Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.747Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.752Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Um dia de cada vez 🤌
+[2026-05-23T03:14:13.761Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkjgxVsRGE/?igsh=MW9zcXA0b3oyMnN5bw==
+[2026-05-23T03:14:13.767Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/jeTw-hi6mlc?si=1LI8pJw5yv_bB0Gr
+[2026-05-23T03:14:13.773Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ó Mãe sustenta a minha vida e a vida da minha FAMÍLIA... AMÉM AMÉM AMÉM!!!
+[2026-05-23T03:14:13.782Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.786Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.792Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.798Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O treino hj foi na areia 👏🏼👏🏼
+[2026-05-23T03:14:13.806Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.814Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.819Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYlI5FbsMPe/?igsh=MTM5d2d2b2h3eTE5Mw==
+[2026-05-23T03:14:13.828Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Imagina que parte da sociedade brasileira comemora algo assim? Meu Deus! 
+Despertem!
+[2026-05-23T03:14:13.834Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.842Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.852Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.862Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.868Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mesmo na feira do livro (FLICOOP), assistindo uma reunião extraordinária do NATE/ COINTE...
+[2026-05-23T03:14:13.873Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.881Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.886Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.893Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.898Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.907Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.913Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O melhor Bom Dia do mundo 😍
+[2026-05-23T03:14:13.920Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.928Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.933Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tbt, arraiá dos Desprezados 2019.🔥🌽
+[2026-05-23T03:14:13.977Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.994Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:13.999Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vendo cama infantil. 
+Nunca usada.
+Com colchão.
+[2026-05-23T03:14:14.005Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🤩🤩😍😍🙏🏾🙏🏾
+[2026-05-23T03:14:14.010Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.016Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Assinada a ordem de serviço para a realização da reforma elétrica da escola Estadual Manoel Severiano. Agradecemos a governadora e ao deputado Francisco pelo compromisso com a educação do nosso município.
+[2026-05-23T03:14:14.029Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.033Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.042Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.051Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.056Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.060Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.069Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minhas crianças ❤️
+[2026-05-23T03:14:14.074Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.078Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mais registro de moradores sobre a Limpeza urbana na Monte Sinai Bairro nossa senhora da conceição! Ta ficando bom
+[2026-05-23T03:14:14.085Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vida boa é essa🐴
+[2026-05-23T03:14:14.092Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Aqui é mulher do campo.
+Kkkk
+[2026-05-23T03:14:14.097Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Deus é perfeito. Tudo que ele manda para humanidade é perfeito🥰
+[2026-05-23T03:14:14.102Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=☘️🌱
+[2026-05-23T03:14:14.106Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minha véia dá de 10000 nas novinhas.kkkk
+[2026-05-23T03:14:14.112Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.116Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Muito obrigada pelo convite ❣️ Seremos sim seus padrinhos... 🥰 Estarei sempre aqui disponível minha Sobrinha/ Comadre/Irmã. Desejo que Deus os abençoe e sejam muito felizes.🙏🏼🙌🏼🙏🏼🙌🏼❤️
+[2026-05-23T03:14:14.127Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Última Passagem de Campinadeira no Milharal que foi plantado a cerca de 35 dias,Em breve se Deus quiser vamos iniciar o plantio das Vazantes, porque é isso que o Verdadeiro Agricultor faz, plantar, cuidar e colher, vale destacar o trabalho árduo do jumento Asa Branca. Aqui é assim Gratidão a Deus e aos que eles designa pra ajudar nos na lida diária.
+[2026-05-23T03:14:14.132Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.138Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Troféus 🏆🏆🏆🏆
+[2026-05-23T03:14:14.144Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Eclesiastes 11:4-5 diz o seguinte, O Agricultor que espera condições perfeitas nunca semeia, se ele ficar observando as nuvens não colhe, Assim como é impossível entender o caminho do vento ou o mistério do bebê no ventre da mãe, também é impossível entender as obras de Deus que faz todas as coisas 🙏🏾
+[2026-05-23T03:14:14.152Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.157Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.173Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Atualização: ainda estou rouca, muita tosse, mas tive uma melhora agora pela tarde. 😷 Espero voltar a ativa na segunda, agradeço por todas orações e mensagens 🥰
+[2026-05-23T03:14:14.178Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.183Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ponto de comércio para alugar em Riachuelo.
+[2026-05-23T03:14:14.189Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.197Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.271Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.279Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.347Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.361Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.642Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:14.776Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tô aceitando de presente 🥳🎉
+[2026-05-23T03:14:14.967Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.134Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.147Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Viva Santa Rita de Cássia
+[2026-05-23T03:14:15.155Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.168Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.178Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.183Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.188Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.197Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.204Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.213Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.222Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.226Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.234Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.242Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.254Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/yIMd1_nPagI?si=hZ8pIRRtQVGMKAO-
+[2026-05-23T03:14:15.266Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.271Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.279Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkcHEzKGRo/?igsh=cDNuNTBpa21lODlw
+[2026-05-23T03:14:15.287Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.292Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.296Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.youtube.com/live/f5A0yyvyW80?si=rjaRwaOtkAU2mayy
+[2026-05-23T03:14:15.303Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.310Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.322Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYXXy7pipKG/?igsh=NnZ0bjNjcG9penZ2
+[2026-05-23T03:14:15.329Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYVXgFDMXxO/?igsh=Njk0MTU5MWZtY255
+[2026-05-23T03:14:15.336Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.342Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.351Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Pq a gente merece 😌
+[2026-05-23T03:14:15.358Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.363Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.370Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.375Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Hoje na FLICOOP
+[2026-05-23T03:14:15.382Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.394Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.399Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Lanche da noite 😊
+[2026-05-23T03:14:15.405Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.418Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.422Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.427Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.433Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.440Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.446Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.450Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.461Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.467Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🧡
+[2026-05-23T03:14:15.473Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.482Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Amoooooo!!! 🤤
+[2026-05-23T03:14:15.487Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Faz parte da dieta! 😅
+[2026-05-23T03:14:15.492Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Santa Rita, intercedei por nós!!! 🌹💞🙏🏻
+[2026-05-23T03:14:15.497Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Equipe do NULLB sempre tão acolhedora e amiga!!!
+[2026-05-23T03:14:15.504Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🌹💞🙏🏻
+[2026-05-23T03:14:15.508Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Primeiro dia do Tríduo em honra à Santa Rita de Cássia | Carnaúba - Riachuelo/RN. 🙏🏻
+[2026-05-23T03:14:15.513Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=1° dia das festividades de Santa Rita de Cássia na Comunidade de Carnaúba 🙏
+[2026-05-23T03:14:15.519Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙏
+[2026-05-23T03:14:15.525Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tudo é do Pai!!! 🙏🏻
+[2026-05-23T03:14:15.531Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥹
+[2026-05-23T03:14:15.537Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥰❤️
+[2026-05-23T03:14:15.543Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.549Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.556Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Boa Noite ja encerramos
+[2026-05-23T03:14:15.561Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.570Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=E assim, todo mês vai uma parte do salário em livros. 😅
+[2026-05-23T03:14:15.575Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Não sou Ariano Suassuna, mas simpatizo muito com cabra😂 ,essa frase ele disse ao primo dele Doutor Manelito Dantas quando recebeu o prêmio da obra escrita Pedra do Reino e decidiram juntos criar cabras, um dos poucos animais que resistem à seca , também conhecida como a vaca do pobre.
+[2026-05-23T03:14:15.582Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.588Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙌🏼
+[2026-05-23T03:14:15.596Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:14:15.603Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Encerramos 😊
+[2026-05-23T03:14:19.894Z] [INFO] Evento message: fromMe=false from=43314896199865@lid to=558499210586@c.us body=
+[2026-05-23T03:14:19.895Z] [WARN] Mensagem ignorada de 43314896199865: telefone fora da lista permitida.
+[2026-05-23T03:14:47.332Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:14:47.333Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:15:16.479Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:15:16.480Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:19:38.287Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:19:38.291Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:19:38.297Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T03:19:38.302Z] [INFO] Banco SQLite fechado.
+[2026-05-23T03:20:37.550Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:20:37.553Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:20:37.554Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:20:45.995Z] [WARN] WhatsApp desconectado: LOGOUT
+[2026-05-23T03:20:49.726Z] [ERROR] Promise rejeitada sem tratamento: Error: Attempted to use detached Frame '09FC73EC4D3782A7C30F292C23179EB0'.
+    at CdpFrame.<anonymous> (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:107:23)
+    at CdpPage.evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:830:43)
+    at Client.inject (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:126:38)
+    at C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:503:24
+[2026-05-23T03:20:52.964Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:20:52.967Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:20:52.969Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:20:57.013Z] [INFO] QR Code recebido. Escaneie pelo WhatsApp do celular.
+[2026-05-23T03:21:30.994Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:21:30.996Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:21:30.998Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:21:31.000Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:21:31.001Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:21:32.299Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T03:21:36.071Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.077Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.087Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥳🥳🎂🎉🎉
+[2026-05-23T03:21:36.093Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.098Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.103Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Um dia de cada vez 🤌
+[2026-05-23T03:21:36.111Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkjgxVsRGE/?igsh=MW9zcXA0b3oyMnN5bw==
+[2026-05-23T03:21:36.131Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/jeTw-hi6mlc?si=1LI8pJw5yv_bB0Gr
+[2026-05-23T03:21:36.138Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ó Mãe sustenta a minha vida e a vida da minha FAMÍLIA... AMÉM AMÉM AMÉM!!!
+[2026-05-23T03:21:36.147Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.151Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.158Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.165Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O treino hj foi na areia 👏🏼👏🏼
+[2026-05-23T03:21:36.194Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.202Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.224Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYlI5FbsMPe/?igsh=MTM5d2d2b2h3eTE5Mw==
+[2026-05-23T03:21:36.231Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Imagina que parte da sociedade brasileira comemora algo assim? Meu Deus! 
+Despertem!
+[2026-05-23T03:21:36.237Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.242Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.250Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.260Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.269Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mesmo na feira do livro (FLICOOP), assistindo uma reunião extraordinária do NATE/ COINTE...
+[2026-05-23T03:21:36.273Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.278Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.282Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.286Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.294Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.302Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.311Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O melhor Bom Dia do mundo 😍
+[2026-05-23T03:21:36.317Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.326Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.333Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tbt, arraiá dos Desprezados 2019.🔥🌽
+[2026-05-23T03:21:36.340Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.347Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.353Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vendo cama infantil. 
+Nunca usada.
+Com colchão.
+[2026-05-23T03:21:36.359Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🤩🤩😍😍🙏🏾🙏🏾
+[2026-05-23T03:21:36.371Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.376Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Assinada a ordem de serviço para a realização da reforma elétrica da escola Estadual Manoel Severiano. Agradecemos a governadora e ao deputado Francisco pelo compromisso com a educação do nosso município.
+[2026-05-23T03:21:36.382Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.386Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.393Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.397Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.402Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.407Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.414Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minhas crianças ❤️
+[2026-05-23T03:21:36.418Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.428Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mais registro de moradores sobre a Limpeza urbana na Monte Sinai Bairro nossa senhora da conceição! Ta ficando bom
+[2026-05-23T03:21:36.432Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vida boa é essa🐴
+[2026-05-23T03:21:36.440Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Aqui é mulher do campo.
+Kkkk
+[2026-05-23T03:21:36.448Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Deus é perfeito. Tudo que ele manda para humanidade é perfeito🥰
+[2026-05-23T03:21:36.469Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=☘️🌱
+[2026-05-23T03:21:36.492Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minha véia dá de 10000 nas novinhas.kkkk
+[2026-05-23T03:21:36.500Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.507Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Muito obrigada pelo convite ❣️ Seremos sim seus padrinhos... 🥰 Estarei sempre aqui disponível minha Sobrinha/ Comadre/Irmã. Desejo que Deus os abençoe e sejam muito felizes.🙏🏼🙌🏼🙏🏼🙌🏼❤️
+[2026-05-23T03:21:36.517Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Última Passagem de Campinadeira no Milharal que foi plantado a cerca de 35 dias,Em breve se Deus quiser vamos iniciar o plantio das Vazantes, porque é isso que o Verdadeiro Agricultor faz, plantar, cuidar e colher, vale destacar o trabalho árduo do jumento Asa Branca. Aqui é assim Gratidão a Deus e aos que eles designa pra ajudar nos na lida diária.
+[2026-05-23T03:21:36.526Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.539Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Troféus 🏆🏆🏆🏆
+[2026-05-23T03:21:36.548Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Eclesiastes 11:4-5 diz o seguinte, O Agricultor que espera condições perfeitas nunca semeia, se ele ficar observando as nuvens não colhe, Assim como é impossível entender o caminho do vento ou o mistério do bebê no ventre da mãe, também é impossível entender as obras de Deus que faz todas as coisas 🙏🏾
+[2026-05-23T03:21:36.556Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.564Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.574Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Atualização: ainda estou rouca, muita tosse, mas tive uma melhora agora pela tarde. 😷 Espero voltar a ativa na segunda, agradeço por todas orações e mensagens 🥰
+[2026-05-23T03:21:36.582Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.586Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ponto de comércio para alugar em Riachuelo.
+[2026-05-23T03:21:36.595Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.599Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.605Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.613Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.617Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.624Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.632Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.644Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tô aceitando de presente 🥳🎉
+[2026-05-23T03:21:36.647Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.657Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.661Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Viva Santa Rita de Cássia
+[2026-05-23T03:21:36.666Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.672Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.679Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.689Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.693Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.697Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.702Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.708Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.715Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.721Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.727Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.731Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.741Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/yIMd1_nPagI?si=hZ8pIRRtQVGMKAO-
+[2026-05-23T03:21:36.746Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.750Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.759Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkcHEzKGRo/?igsh=cDNuNTBpa21lODlw
+[2026-05-23T03:21:36.765Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.770Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.776Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.youtube.com/live/f5A0yyvyW80?si=rjaRwaOtkAU2mayy
+[2026-05-23T03:21:36.781Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.785Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.789Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYXXy7pipKG/?igsh=NnZ0bjNjcG9penZ2
+[2026-05-23T03:21:36.795Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYVXgFDMXxO/?igsh=Njk0MTU5MWZtY255
+[2026-05-23T03:21:36.802Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.818Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.826Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Pq a gente merece 😌
+[2026-05-23T03:21:36.841Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.846Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.854Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.860Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Hoje na FLICOOP
+[2026-05-23T03:21:36.865Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.870Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.878Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Lanche da noite 😊
+[2026-05-23T03:21:36.884Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.894Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.900Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.909Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.916Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.930Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.936Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.940Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.945Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.951Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🧡
+[2026-05-23T03:21:36.956Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:36.960Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Amoooooo!!! 🤤
+[2026-05-23T03:21:36.964Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Faz parte da dieta! 😅
+[2026-05-23T03:21:36.972Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Santa Rita, intercedei por nós!!! 🌹💞🙏🏻
+[2026-05-23T03:21:36.978Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Equipe do NULLB sempre tão acolhedora e amiga!!!
+[2026-05-23T03:21:36.986Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🌹💞🙏🏻
+[2026-05-23T03:21:36.992Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Primeiro dia do Tríduo em honra à Santa Rita de Cássia | Carnaúba - Riachuelo/RN. 🙏🏻
+[2026-05-23T03:21:36.997Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=1° dia das festividades de Santa Rita de Cássia na Comunidade de Carnaúba 🙏
+[2026-05-23T03:21:37.004Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙏
+[2026-05-23T03:21:37.024Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tudo é do Pai!!! 🙏🏻
+[2026-05-23T03:21:37.029Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥹
+[2026-05-23T03:21:37.046Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥰❤️
+[2026-05-23T03:21:37.063Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:37.070Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:37.082Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Boa Noite ja encerramos
+[2026-05-23T03:21:37.146Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:37.152Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=E assim, todo mês vai uma parte do salário em livros. 😅
+[2026-05-23T03:21:37.157Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Não sou Ariano Suassuna, mas simpatizo muito com cabra😂 ,essa frase ele disse ao primo dele Doutor Manelito Dantas quando recebeu o prêmio da obra escrita Pedra do Reino e decidiram juntos criar cabras, um dos poucos animais que resistem à seca , também conhecida como a vaca do pobre.
+[2026-05-23T03:21:37.166Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:37.171Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙌🏼
+[2026-05-23T03:21:37.176Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:21:37.189Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Encerramos 😊
+[2026-05-23T03:21:40.311Z] [INFO] Evento message: fromMe=false from=43314896199865@lid to=558499210586@c.us body=
+[2026-05-23T03:21:40.315Z] [WARN] Mensagem ignorada de 43314896199865: telefone fora da lista permitida.
+[2026-05-23T03:22:24.870Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:22:24.883Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:22:24.884Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:22:45.948Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-23T03:22:45.956Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:22:45.956Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:23:44.995Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:23:44.999Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:23:45.000Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:23:45.010Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T03:23:45.014Z] [INFO] Banco SQLite fechado.
+[2026-05-23T03:24:06.482Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:24:06.485Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:24:06.485Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:24:13.200Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:24:40.760Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:24:40.763Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:24:40.764Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:24:47.377Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:25:25.956Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:25:25.959Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:25:25.960Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:25:31.196Z] [WARN] WhatsApp desconectado: LOGOUT
+[2026-05-23T03:25:34.692Z] [ERROR] Promise rejeitada sem tratamento: Error: Attempted to use detached Frame '0C6569E252D79824687E40A818BB152A'.
+    at CdpFrame.<anonymous> (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:107:23)
+    at CdpPage.evaluate (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:830:43)
+    at Client.inject (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:126:38)
+    at C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:503:24
+[2026-05-23T03:25:37.620Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:25:37.623Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:25:37.624Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:25:42.099Z] [INFO] QR Code recebido. Escaneie pelo WhatsApp do celular.
+[2026-05-23T03:26:02.819Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:26:02.822Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:26:02.824Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:26:02.826Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:26:02.830Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:26:04.285Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T03:26:06.486Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.492Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.500Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥳🥳🎂🎉🎉
+[2026-05-23T03:26:06.678Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.683Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.799Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Um dia de cada vez 🤌
+[2026-05-23T03:26:06.806Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkjgxVsRGE/?igsh=MW9zcXA0b3oyMnN5bw==
+[2026-05-23T03:26:06.811Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/jeTw-hi6mlc?si=1LI8pJw5yv_bB0Gr
+[2026-05-23T03:26:06.817Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ó Mãe sustenta a minha vida e a vida da minha FAMÍLIA... AMÉM AMÉM AMÉM!!!
+[2026-05-23T03:26:06.823Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.828Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.833Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.837Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O treino hj foi na areia 👏🏼👏🏼
+[2026-05-23T03:26:06.845Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.850Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.856Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYlI5FbsMPe/?igsh=MTM5d2d2b2h3eTE5Mw==
+[2026-05-23T03:26:06.862Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Imagina que parte da sociedade brasileira comemora algo assim? Meu Deus! 
+Despertem!
+[2026-05-23T03:26:06.867Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.872Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.881Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.891Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.898Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mesmo na feira do livro (FLICOOP), assistindo uma reunião extraordinária do NATE/ COINTE...
+[2026-05-23T03:26:06.916Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.928Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.932Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.937Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.943Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.952Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.962Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=O melhor Bom Dia do mundo 😍
+[2026-05-23T03:26:06.966Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.971Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.980Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tbt, arraiá dos Desprezados 2019.🔥🌽
+[2026-05-23T03:26:06.985Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:06.992Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.000Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vendo cama infantil. 
+Nunca usada.
+Com colchão.
+[2026-05-23T03:26:07.007Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🤩🤩😍😍🙏🏾🙏🏾
+[2026-05-23T03:26:07.015Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.019Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Assinada a ordem de serviço para a realização da reforma elétrica da escola Estadual Manoel Severiano. Agradecemos a governadora e ao deputado Francisco pelo compromisso com a educação do nosso município.
+[2026-05-23T03:26:07.026Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.151Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.155Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.161Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.168Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.174Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.180Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minhas crianças ❤️
+[2026-05-23T03:26:07.185Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.190Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Mais registro de moradores sobre a Limpeza urbana na Monte Sinai Bairro nossa senhora da conceição! Ta ficando bom
+[2026-05-23T03:26:07.197Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Vida boa é essa🐴
+[2026-05-23T03:26:07.202Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Aqui é mulher do campo.
+Kkkk
+[2026-05-23T03:26:07.208Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Deus é perfeito. Tudo que ele manda para humanidade é perfeito🥰
+[2026-05-23T03:26:07.216Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=☘️🌱
+[2026-05-23T03:26:07.220Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Minha véia dá de 10000 nas novinhas.kkkk
+[2026-05-23T03:26:07.227Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.231Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Muito obrigada pelo convite ❣️ Seremos sim seus padrinhos... 🥰 Estarei sempre aqui disponível minha Sobrinha/ Comadre/Irmã. Desejo que Deus os abençoe e sejam muito felizes.🙏🏼🙌🏼🙏🏼🙌🏼❤️
+[2026-05-23T03:26:07.240Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Última Passagem de Campinadeira no Milharal que foi plantado a cerca de 35 dias,Em breve se Deus quiser vamos iniciar o plantio das Vazantes, porque é isso que o Verdadeiro Agricultor faz, plantar, cuidar e colher, vale destacar o trabalho árduo do jumento Asa Branca. Aqui é assim Gratidão a Deus e aos que eles designa pra ajudar nos na lida diária.
+[2026-05-23T03:26:07.249Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.259Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Troféus 🏆🏆🏆🏆
+[2026-05-23T03:26:07.436Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Eclesiastes 11:4-5 diz o seguinte, O Agricultor que espera condições perfeitas nunca semeia, se ele ficar observando as nuvens não colhe, Assim como é impossível entender o caminho do vento ou o mistério do bebê no ventre da mãe, também é impossível entender as obras de Deus que faz todas as coisas 🙏🏾
+[2026-05-23T03:26:07.446Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.453Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.623Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Atualização: ainda estou rouca, muita tosse, mas tive uma melhora agora pela tarde. 😷 Espero voltar a ativa na segunda, agradeço por todas orações e mensagens 🥰
+[2026-05-23T03:26:07.636Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.644Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ponto de comércio para alugar em Riachuelo.
+[2026-05-23T03:26:07.679Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.684Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.700Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.705Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.716Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.725Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.733Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.740Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tô aceitando de presente 🥳🎉
+[2026-05-23T03:26:07.749Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.758Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.768Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Viva Santa Rita de Cássia
+[2026-05-23T03:26:07.773Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.779Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.786Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.792Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.799Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.810Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.814Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.823Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.832Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.841Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.854Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.862Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.877Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://youtu.be/yIMd1_nPagI?si=hZ8pIRRtQVGMKAO-
+[2026-05-23T03:26:07.886Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.892Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.904Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYkcHEzKGRo/?igsh=cDNuNTBpa21lODlw
+[2026-05-23T03:26:07.927Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.935Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.950Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.youtube.com/live/f5A0yyvyW80?si=rjaRwaOtkAU2mayy
+[2026-05-23T03:26:07.959Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.967Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.972Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYXXy7pipKG/?igsh=NnZ0bjNjcG9penZ2
+[2026-05-23T03:26:07.980Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=https://www.instagram.com/reel/DYVXgFDMXxO/?igsh=Njk0MTU5MWZtY255
+[2026-05-23T03:26:07.989Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:07.997Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.004Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Pq a gente merece 😌
+[2026-05-23T03:26:08.013Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.025Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.031Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.038Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Hoje na FLICOOP
+[2026-05-23T03:26:08.053Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.062Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.068Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Lanche da noite 😊
+[2026-05-23T03:26:08.077Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.086Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.095Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.102Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.109Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.118Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.132Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.137Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.144Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.151Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🧡
+[2026-05-23T03:26:08.156Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.162Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Amoooooo!!! 🤤
+[2026-05-23T03:26:08.167Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Faz parte da dieta! 😅
+[2026-05-23T03:26:08.172Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Santa Rita, intercedei por nós!!! 🌹💞🙏🏻
+[2026-05-23T03:26:08.182Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Equipe do NULLB sempre tão acolhedora e amiga!!!
+[2026-05-23T03:26:08.188Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🌹💞🙏🏻
+[2026-05-23T03:26:08.194Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Primeiro dia do Tríduo em honra à Santa Rita de Cássia | Carnaúba - Riachuelo/RN. 🙏🏻
+[2026-05-23T03:26:08.199Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=1° dia das festividades de Santa Rita de Cássia na Comunidade de Carnaúba 🙏
+[2026-05-23T03:26:08.206Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙏
+[2026-05-23T03:26:08.214Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Tudo é do Pai!!! 🙏🏻
+[2026-05-23T03:26:08.219Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥹
+[2026-05-23T03:26:08.229Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🥰❤️
+[2026-05-23T03:26:08.235Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.240Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.247Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Boa Noite ja encerramos
+[2026-05-23T03:26:08.252Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.256Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=E assim, todo mês vai uma parte do salário em livros. 😅
+[2026-05-23T03:26:08.261Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Não sou Ariano Suassuna, mas simpatizo muito com cabra😂 ,essa frase ele disse ao primo dele Doutor Manelito Dantas quando recebeu o prêmio da obra escrita Pedra do Reino e decidiram juntos criar cabras, um dos poucos animais que resistem à seca , também conhecida como a vaca do pobre.
+[2026-05-23T03:26:08.268Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.274Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=🙌🏼
+[2026-05-23T03:26:08.280Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=
+[2026-05-23T03:26:08.286Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Encerramos 😊
+[2026-05-23T03:26:12.424Z] [INFO] Evento message: fromMe=false from=43314896199865@lid to=558499210586@c.us body=
+[2026-05-23T03:26:12.428Z] [WARN] Mensagem ignorada de 43314896199865: telefone fora da lista permitida.
+[2026-05-23T03:26:27.560Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:26:27.572Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:26:27.621Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Olá! Seja bem-vindo(a) à Renaly Basílio Estética. 😊
+
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo:
+
+1 - Catálogo de serviços
+2 - Endereço
+3 - Fazer agendamento on-line
+4 - Horário de funcionamento
+5 - Falar com um atendente
+6 - Quiz rápido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas opções novamente.
+[2026-05-23T03:26:27.626Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:26:27.640Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T03:26:36.526Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=1
+[2026-05-23T03:26:36.534Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:26:36.549Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Catálogo de serviços da Renaly Basílio Estética:
+
+1. Limpeza de pele
+2. Design de sobrancelhas
+3. Depilação
+4. Massagem
+5. Outros procedimentos
+
+Para fazer seu agendamento on-line, digite 3.
+[2026-05-23T03:26:36.553Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:26:36.571Z] [INFO] Comando de teste processado para 558499210586: 1
+[2026-05-23T03:26:41.691Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=2
+[2026-05-23T03:26:41.699Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:26:41.741Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Endereço da Renaly Basílio Estética:
+
+COLOCAR ENDEREÇO AQUI
+
+Ponto de referência:
+COLOCAR PONTO DE REFERÊNCIA AQUI
+
+Google Maps:
+COLOCAR LINK DO GOOGLE MAPS AQUI
+[2026-05-23T03:26:41.747Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:26:41.759Z] [INFO] Comando de teste processado para 558499210586: 2
+[2026-05-23T03:26:44.815Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=3
+[2026-05-23T03:26:44.823Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:26:44.834Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Para fazer seu agendamento on-line, acesse:
+
+COLOCAR LINK DO MINHAAGENDA AQUI
+
+Pelo link você poderá escolher o serviço, a data e o horário disponíveis diretamente no app MinhaAgenda.
+[2026-05-23T03:26:44.837Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:26:44.847Z] [INFO] Comando de teste processado para 558499210586: 3
+[2026-05-23T03:26:48.111Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=4
+[2026-05-23T03:26:48.118Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:26:48.131Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Horário de funcionamento:
+
+Segunda a sexta: 08h às 18h | Sábado: 08h às 12h
+[2026-05-23T03:26:48.135Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:26:48.145Z] [INFO] Comando de teste processado para 558499210586: 4
+[2026-05-23T03:26:51.671Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=5
+[2026-05-23T03:26:51.678Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:26:51.691Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Certo! Vou chamar um atendente para te ajudar. 😊
+
+Aguarde um momento, por favor.
+
+Enquanto isso, se quiser, você pode digitar 6 para jogar um quiz rápido.
+[2026-05-23T03:26:51.695Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:26:51.708Z] [INFO] Comando de teste processado para 558499210586: 5
+[2026-05-23T03:27:23.922Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkJCQkKCQoLCwoODw0PDhUTERETFR8WGBYYFh8wHiMeHiMeMCozKScpMypMOzU1O0xXSUVJV2pfX2qFf4WuruoBCQkJCQoJCgsLCg4PDQ8OFRMRERMVHxYYFhgWHzAeIx4eIx4wKjMpJykzKkw7NTU7TFdJRUlXal9faoV/ha6u6v/CABEIAKAAWgMBIgACEQEDEQH/xAAzAAABBQEBAQAAAAAAAAAAAAAAAQMEBQYCBwgBAQADAQEAAAAAAAAAAAAAAAABAwQCBf/aAAwDAQACEAMQAAAA8NAAAAAAAAAACwK80tgYou5RmjVIZY1UIogAv6RS80eNsSzY7hlo7TsEzmphHLUhgnPMyJnt00HGmiWRG45c19Rr7uIWF+gPI+4y+f8AT/Ms07iezc6mSctK7zPWWn1Xfq1VempLaM258xnZ2mi+8y9H84zdekXmFvddaMvdbfY66b6vvUESsfsjlnz/ANE87w+dZ32MfzYdm/lJlurROU0uy+dy3BTZcZqFRlu8pOg80cqi9V9HInpeA6XgO1bB1oBFRUACQAAAAAARUVAAkAAAAAAP/8QAOBAAAgEDAwIEAwQIBwAAAAAAAQIDAAQRBRIhEzEGQVFxFCIyECNhgRUzQlBScpGhICRDorGy4f/aAAgBAQABPwD9y6XLYw30Ml9E8lsN29UALcqQMbuKE/hj4yzc292YBcTNcKwXLRnHTUbGTmi3giOztC0V5JOy4lCeX3QOeW79T/bTnRJbOAqJIbmMu0o2kiUF1Cop3HkLkk4FSTeGHMGy0u0UXMBmx36IRRKFJY8ls4qC58JCMdexujIe+zhRum5xlz9Mf0fjV9eeG5kd4dPnjnyNiD5Y9oDKAcN6BT6klqvLnwm8wa1srpE+KDlD26OWyn1n0WtWn0WZQ9jbzRStNI7bgFXYzttAAJ7Lj/Bba4sNnFatplm4SJkMhjHUJaUSb938Q7ChqnxM9skOkwPKWnUKsYLStc5UYVQBlM/JV3d3hurm5j8GKkKtNKubVlCRsgiG8DjAC5/nqV9cFoYbnw6W2W8wSU2xARDvdmH4DrZ49FqCbVBJdNHoDlGtktZIxAdqtJIsidl82wADU8urpFIz+F4Qt0t2FxbcoX4YLgZUxGJigPKivjNbY2ZbwmrvbpAmXtHbetoOlz/w9ale9Cyitv0QIX6axPNJbCJxNCu1053Z4fJ7HODVz4mW5REbSrRQilV2KPkDTmchMg49F9FqeRZZpZEiWNXdmEakkICewzk4H2CJ2AIFdCX+GrB7qxvbS8ijUyW8ySoG5UsjBhmp9Y1+4t3tpbgNEybNuxBhA4cIuBlUBXhRwKvPEniC7to7fEMaiN0cooLSmRQjO5cn5to2gjstPrXiJ557h7gGSYr1MpHhthQgYxjH3Ypdf8RRhwLhMN1P9KI46uc444+o+2TUGs67bRiOG5KKE2DCpwA5lH5hmLA1fXuoagYzdMjmNQqEIiYUKFC/KBwAvAoW8x7LXws/8H9xWKi/VrQoUCKFGoLZriTYDhQMu3kq1ZaZbCNR0lUcHJUNIfzPb8qn0S1nhYPDkd8qFDj8wKubV9PunhkORjKOBwwPnTur4K+lHuah/VrSjsKMTDthv5easVi+CVGQeW8EeZq7g+HmKj6SMr9mmRp0ozuG+Scgg+YQDH/al2jnOPIVBoUJtEBnIuXj3hcjFeKoAEjkCrxLgHzw4/8AK8NaBFPam7uO7tiLhW4HBOGBFScSOPRjWh+HoL/TI5nnZJnZii8YKKcGtS0jTrC3Aijd5WbaHkNLhfl9BSvsYP6EE1qoZhEwzhdwP54+zTpB0gNgLRzbslscOAO3oNtfUNoORnIqLxUyWQi6H36xhBJmtblE4SPccbtxHtwKtfEk9vCkXSGyNNq457dhinOXc+rGtCDSafp/+Z6XRaRgx7YZq1d0urGJw/1SqN4bKrztZvYVBou4xdWRuo3Mm0ZQDnGCfOpoENzLEnzIHIGazLPEkU7l404VSBjihHFtx01x7U1r0pOrbgA4w0Z+lwfKrCWA8PJtUg4VuWU+hPbFX97DC0iLJ1CDwAaeeR5TKSC+c8gEcdhiv0rLeRbJoYmCn0YkH3GKf629zXhmBJrCAidAy7wY8ZJBPn6qaito4oLiAgqxJMYwXK8YyPXBq50g26BorpsHIYMuz+zHmraBo1O7GaHAAFZ5ArfyQQaKjdmiFIwQCKa1gb9jHtxSQmANsO4E5we9P9b+5rTAws4GRyrDJH9ai1HUBiLrZBXGTyRRPz57k92PJNEnHABoH8KyBzWaJOOBzWX8yB7VkUXAp/rf3NWWpPAqxMm5B2x3FQ3cTsGRhnGNp4NLIwbcee/HvQnT8aWZGOOxokGgwAxXUz+y3vg0QzAjGPxNSvaxDMjKvHrgmp9XhjBFvEXPqeBR5JP2JL5NUd5PHjD5HoeaTVB2kjPutJd2z9pV/PilkZSPPPFM0UQDTSqPPBOBU2s2y56YaQ/0FTardS8Bgi+i0fmJJJJPcmitHuftDsK6jVualkkXlXI9jit7ZyTzW9q6jV1X9a60nr+/v//EACMRAAICAgICAQUAAAAAAAAAAAECAAMREgQxIVFAEyJBUmH/2gAIAQIBAT8A+GzqBPBiLnuFBiI6s7qDkr3MA1kgecGaksAPJi8NtRlp9GxD1kexLrNVKjuUBAXIH3HuU2ptpqckyvj1o24HmZmYVRuwDLqKqzsi4LdwLhg6+GEHIvQfhpXzMnFi6/2WcwZArXaPbdYQS2uP1g9kkn2fh//EACYRAAICAQMDAwUAAAAAAAAAAAECABEDBCExQVFhEiAwECIyQnH/2gAIAQMBAT8A+avZUw6dsjlT9tC94yFCVbkTYQEEx1IVSesQAFCdxYsRSegj6d8rs7EL45mXT5F/W/IiJRsiZ/XS2R6ekVWYhQeZiwun5PZ+pVTyAZrlCjGAO8R2Ugg7iLq8q9j/AGY9aDs4ryJk1oBpBcyajJkI3qu0ck8kn22fm//Z
+[2026-05-23T03:28:07.199Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=3
+[2026-05-23T03:28:07.207Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:28:07.222Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Para fazer seu agendamento on-line, acesse:
+
+COLOCAR LINK DO MINHAAGENDA AQUI
+
+Pelo link você poderá escolher o serviço, a data e o horário disponíveis diretamente no app MinhaAgenda.
+[2026-05-23T03:28:07.226Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:28:07.235Z] [INFO] Comando de teste processado para 558499210586: 3
+[2026-05-23T03:28:33.635Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:28:33.638Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:28:33.639Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:28:40.486Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:35:17.207Z] [INFO] Interface local disponivel em http://localhost:3999
+[2026-05-23T03:35:28.211Z] [INFO] Interface local disponivel em http://localhost:3999
+[2026-05-23T03:35:39.112Z] [INFO] Interface local disponivel em http://localhost:3999
+[2026-05-23T03:36:57.746Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:36:57.748Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:36:57.748Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:36:57.766Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-23T03:37:01.937Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-23T03:37:04.628Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:37:05.409Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-23T03:38:16.461Z] [INFO] Encerrando bot por sinal SIGINT...
+[2026-05-23T03:38:37.391Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:38:37.392Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:38:37.393Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:38:37.412Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-23T03:38:41.262Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-23T03:38:43.997Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:38:45.400Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T03:39:01.861Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:39:01.876Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:39:01.932Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Olá! Seja bem-vindo(a) à Renaly Basílio Estética. 😊
+
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo:
+
+1 - Catálogo de serviços
+2 - Endereço
+3 - Fazer agendamento on-line
+4 - Horário de funcionamento
+5 - Falar com um atendente
+6 - Quiz rápido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas opções novamente.
+[2026-05-23T03:39:01.941Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:39:01.968Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T03:39:14.463Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=6
+[2026-05-23T03:39:14.474Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:39:14.489Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Quiz rápido enquanto você aguarda:
+
+Dormir maquiada pode prejudicar a pele?
+
+A - Sim
+B - Não
+
+Responda com a letra da opção.
+[2026-05-23T03:39:14.494Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:39:14.505Z] [INFO] Comando de teste processado para 558499210586: 6
+[2026-05-23T03:39:58.554Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=A
+[2026-05-23T03:39:58.566Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:40:02.942Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Chegou o dia de entregar as camisetas do nosso passeio galera vem buscar a sua 🏍️👍
+[2026-05-23T03:40:23.405Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=Sim
+[2026-05-23T03:40:23.418Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:40:47.412Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:40:47.414Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:40:47.415Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:40:47.434Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-23T03:40:50.965Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-23T03:40:53.619Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:40:53.730Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-23T03:40:54.887Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T03:41:09.816Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:41:09.829Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:41:09.888Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Olá! Seja bem-vindo(a) à Renaly Basílio Estética. 😊
+
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo:
+
+1 - Catálogo de serviços
+2 - Endereço
+3 - Fazer agendamento on-line
+4 - Horário de funcionamento
+5 - Falar com um atendente
+6 - Quiz rápido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas opções novamente.
+[2026-05-23T03:41:09.896Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:41:09.916Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T03:41:13.882Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=5
+[2026-05-23T03:41:13.892Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:41:13.907Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Certo! Vou chamar um atendente para te ajudar. 😊
+
+Aguarde um momento, por favor.
+
+Enquanto isso, se quiser, você pode digitar 6 para jogar um quiz rápido.
+[2026-05-23T03:41:13.912Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:41:13.922Z] [INFO] Comando de teste processado para 558499210586: 5
+[2026-05-23T03:41:45.491Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=Ficou top
+[2026-05-23T03:42:20.676Z] [INFO] Evento message: fromMe=false from=status@broadcast to=558499210586@c.us body=/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIADwAIQMBIgACEQEDEQH/xAAtAAADAQEBAAAAAAAAAAAAAAADBAUABgEBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAAtwqUiUViFWCb3CCLikp0zilJp+3i6JmJjRDLFpbUdV7meqhpIeacEtSx/8QAJRAAAgICAQMEAwEAAAAAAAAAAQIAAwQREhMxURQhUmEFECNT/9oACAEBAAE/AOYZdiflbGULMC2zZXl7Qqze/PQn8f8AUyo8UOzM++q3QEx7aq3XcaxbCqo4KmdFPAl2Q7VIu9Fo1a7A3oDufMNaAArUda7xTYjniNDvPUr8mmUitela+NR02/A9lnqn4hFiPqpiw/SBrMyyw9lgaou/sDLQyOSO0r1ZU/1OL/GV1XK9xPYzqPWza8xsixhqY/J+YnQt8zjM2vhe8Kka3MZeCFp1PuFB5Myxu/UyaEQVTHoR6FnpKp//xAAZEQADAQEBAAAAAAAAAAAAAAAAARExEEL/2gAIAQIBAT8A6tHVWuR6tFfSRTOQ/8QAGREBAAMBAQAAAAAAAAAAAAAAEQABECGB/9oACAEDAQE/ANJQdxicq57Bhn//2Q==
+[2026-05-23T03:54:28.544Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:54:28.545Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:54:28.546Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:54:28.563Z] [INFO] Interface local disponivel em http://localhost:3999
+[2026-05-23T03:54:41.154Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:54:41.155Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:54:41.156Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:54:41.172Z] [INFO] Interface local disponivel em http://localhost:3999
+[2026-05-23T03:56:02.798Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T03:56:02.799Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T03:56:02.800Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T03:56:02.815Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-23T03:56:12.711Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-23T03:56:16.441Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-23T03:56:19.073Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:56:19.100Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-23T03:57:49.082Z] [WARN] WhatsApp nao ficou pronto a tempo depois de autenticacao. Reiniciando cliente...
+[2026-05-23T03:57:49.084Z] [WARN] Reiniciando cliente WhatsApp: timeout aguardando ready depois de autenticacao
+[2026-05-23T03:57:53.006Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-23T03:57:55.690Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T03:57:56.962Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T03:58:29.416Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T03:58:29.429Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:58:29.490Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Ol�! Seja bem-vindo(a) � Renaly Bas�lio Est�tica. ??
+
+Como posso te ajudar hoje?
+
+Digite uma das op��es abaixo:
+
+1 - Cat�logo de servi�os
+2 - Endere�o
+3 - Fazer agendamento on-line
+4 - Hor�rio de funcionamento
+5 - Falar com um atendente
+6 - Quiz r�pido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas op��es novamente.
+[2026-05-23T03:58:29.497Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:58:29.509Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T03:59:01.729Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=1
+[2026-05-23T03:59:01.748Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:59:03.000Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Cat�logo de servi�os da Renaly Bas�lio Est�tica:
+
+1. Limpeza de pele
+2. Design de sobrancelhas
+3. Depila��o
+4. Massagem
+5. Outros procedimentos
+
+Para fazer seu agendamento on-line, digite 3.
+[2026-05-23T03:59:03.003Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:59:03.012Z] [INFO] Comando de teste processado para 558499210586: 1
+[2026-05-23T03:59:26.371Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=3
+[2026-05-23T03:59:26.380Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:59:27.619Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Para fazer seu agendamento on-line, acesse:
+
+COLOCAR LINK DO MINHAAGENDA AQUI
+
+Pelo link voc� poder� escolher o servi�o, a data e o hor�rio dispon�veis diretamente no app MinhaAgenda.
+[2026-05-23T03:59:27.621Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:59:27.629Z] [INFO] Comando de teste processado para 558499210586: 3
+[2026-05-23T03:59:57.320Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-23T03:59:57.334Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T03:59:58.568Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Ol�! Seja bem-vindo(a) � Renaly Bas�lio Est�tica. ??
+
+Como posso te ajudar hoje?
+
+Digite uma das op��es abaixo:
+
+1 - Cat�logo de servi�os
+2 - Endere�o
+3 - Fazer agendamento on-line
+4 - Hor�rio de funcionamento
+5 - Falar com um atendente
+6 - Quiz r�pido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas op��es novamente.
+[2026-05-23T03:59:58.570Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T03:59:58.579Z] [INFO] Comando de teste processado para 558499210586: menu
+[2026-05-23T04:00:08.398Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T04:00:08.407Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:00:09.651Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Ol�! Seja bem-vindo(a) � Renaly Bas�lio Est�tica. ??
+
+Como posso te ajudar hoje?
+
+Digite uma das op��es abaixo:
+
+1 - Cat�logo de servi�os
+2 - Endere�o
+3 - Fazer agendamento on-line
+4 - Hor�rio de funcionamento
+5 - Falar com um atendente
+6 - Quiz r�pido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas op��es novamente.
+[2026-05-23T04:00:09.653Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:00:09.663Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T04:00:54.820Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=kk
+[2026-05-23T04:00:54.830Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:01:36.235Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=2
+[2026-05-23T04:01:36.244Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:01:37.522Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Endere�o da Renaly Bas�lio Est�tica:
+
+COLOCAR ENDERE�O AQUI
+
+Ponto de refer�ncia:
+COLOCAR PONTO DE REFER�NCIA AQUI
+
+Google Maps:
+COLOCAR LINK DO GOOGLE MAPS AQUI
+[2026-05-23T04:01:37.525Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:01:37.534Z] [INFO] Comando de teste processado para 558499210586: 2
+[2026-05-23T04:01:46.205Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-23T04:01:46.215Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:01:47.484Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Ol�! Seja bem-vindo(a) � Renaly Bas�lio Est�tica. ??
+
+Como posso te ajudar hoje?
+
+Digite uma das op��es abaixo:
+
+1 - Cat�logo de servi�os
+2 - Endere�o
+3 - Fazer agendamento on-line
+4 - Hor�rio de funcionamento
+5 - Falar com um atendente
+6 - Quiz r�pido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas op��es novamente.
+[2026-05-23T04:01:47.488Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:01:47.498Z] [INFO] Comando de teste processado para 558499210586: menu
+[2026-05-23T04:02:46.738Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-23T04:04:59.456Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T04:04:59.457Z] [INFO] Iniciando bot da Renaly Basílio Estética...
+[2026-05-23T04:04:59.458Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T04:04:59.476Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-23T04:14:55.552Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T04:14:55.553Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-23T04:14:55.554Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T04:14:55.571Z] [INFO] Interface local disponivel em http://localhost:3999
+[2026-05-23T04:15:07.833Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T04:15:07.839Z] [INFO] Banco SQLite fechado.
+[2026-05-23T04:15:57.641Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T04:15:57.642Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-23T04:15:57.642Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T04:15:57.663Z] [INFO] Interface local disponivel em http://localhost:3999
+[2026-05-23T04:18:02.513Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-23T04:18:06.168Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-23T04:18:08.829Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T04:18:08.914Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T04:18:09.977Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-23T04:18:10.082Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-23T04:18:39.462Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T04:18:39.477Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:18:39.531Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Quiz rapido enquanto aguarda
+
+Digite menu a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T04:18:39.538Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:18:39.552Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T04:19:34.792Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=8
+[2026-05-23T04:19:34.802Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:19:43.900Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T04:19:43.909Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:19:43.921Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Quiz rapido enquanto aguarda
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T04:19:43.927Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:19:43.937Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T04:20:19.483Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T04:20:19.484Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-23T04:20:19.485Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T04:20:19.501Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-23T04:20:36.909Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-23T04:20:41.025Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-23T04:20:43.666Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T04:20:44.865Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T04:22:44.342Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=1
+[2026-05-23T04:22:44.357Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:22:47.855Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Catalogo de servicos da Renaly Basilio Estetica:
+
+- Limpeza de pele
+- Design de sobrancelhas
+- Depilacao
+- Massagem
+- Outros procedimentos
+
+Para agendamento, volte ao menu e escolha a opcao de agendamento on-line.
+[2026-05-23T04:22:47.860Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:22:47.872Z] [INFO] Comando de teste processado para 558499210586: 1
+[2026-05-23T04:22:58.115Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-23T04:22:58.124Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:23:01.561Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Quiz rapido enquanto aguarda
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T04:23:01.564Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:23:01.573Z] [INFO] Comando de teste processado para 558499210586: menu
+[2026-05-23T04:37:32.088Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T04:40:52.795Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T04:43:40.528Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T04:43:40.529Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-23T04:43:40.530Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T04:43:40.547Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-23T04:52:18.944Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-23T04:52:22.639Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-23T04:52:25.464Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T04:52:25.636Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T04:52:26.411Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-23T04:53:21.880Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T04:53:21.894Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:53:23.188Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖 Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica. 
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - 🤖 Robo - Catalogo de servicos
+2 - 🤖 Robo - Endereco
+3 - 🤖 Robo - Fazer agendamento on-line
+4 - 🤖 Robo - Horario de funcionamento
+5 - 🤖 Robo - Falar com um atendente
+6 - 🤖 Robo - Quiz rapido enquanto aguarda
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T04:53:23.194Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:53:23.206Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T04:54:30.352Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-23T04:54:30.363Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:54:31.589Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖 Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica. 
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Quiz rapido enquanto aguarda
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T04:54:31.592Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:54:31.601Z] [INFO] Comando de teste processado para 558499210586: menu
+[2026-05-23T04:54:41.276Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=1
+[2026-05-23T04:54:41.286Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:54:42.505Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Catalogo de servicos da Renaly Basilio Estetica:
+
+- Limpeza de pele
+- Design de sobrancelhas
+- Depilacao
+- Massagem
+- Outros procedimentos
+
+Para agendamento, volte ao menu e escolha a opcao de agendamento on-line.
+[2026-05-23T04:54:42.507Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:54:42.517Z] [INFO] Comando de teste processado para 558499210586: 1
+[2026-05-23T04:55:13.714Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-23T04:55:13.723Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:55:14.948Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖 Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica. 
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - 🤖 Robo - Quiz rapido enquanto aguarda
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T04:55:14.950Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:55:14.959Z] [INFO] Comando de teste processado para 558499210586: menu
+[2026-05-23T04:55:19.696Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=1
+[2026-05-23T04:55:19.706Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:55:20.926Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖 Robo - Catalogo de servicos da Renaly Basilio Estetica:
+
+- Limpeza de pele
+- Design de sobrancelhas
+- Depilacao
+- Massagem
+- Outros procedimentos
+
+Para agendamento, volte ao menu e escolha a opcao de agendamento on-line.
+[2026-05-23T04:55:20.928Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:55:20.939Z] [INFO] Comando de teste processado para 558499210586: 1
+[2026-05-23T04:56:35.700Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-23T04:56:35.711Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:56:36.932Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖 Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica. 
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Quiz rapido enquanto aguarda
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T04:56:36.934Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:56:36.942Z] [INFO] Comando de teste processado para 558499210586: menu
+[2026-05-23T04:59:23.666Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-23T04:59:23.676Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T04:59:24.912Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖 Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica. 
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Quiz rapido enquanto aguarda
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T04:59:24.918Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T04:59:24.929Z] [INFO] Comando de teste processado para 558499210586: menu
+[2026-05-23T05:00:06.401Z] [INFO] Evento message: fromMe=false from=88416549081170@lid to=558499210586@c.us body=*Sistema*
+Olá! 😊 
+
+O atendimento será encerrado por aqui, mas caso tenha alguma dúvida, é só enviar uma nova mensagem. O bot está sempre à disposição para ajudar! 😉
+[2026-05-23T05:00:06.786Z] [WARN] Mensagem ignorada de 88416549081170: telefone fora da lista permitida.
+[2026-05-23T05:05:35.188Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=Oi
+[2026-05-23T05:05:35.199Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T05:05:36.446Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Quiz rapido enquanto aguarda
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T05:05:36.450Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T05:05:36.461Z] [INFO] Comando de teste processado para 558499210586: Oi
+[2026-05-23T12:40:59.596Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-23T12:40:59.597Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-23T12:40:59.597Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-23T12:40:59.613Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-23T12:41:21.694Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-23T12:41:26.509Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-23T12:41:29.362Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T12:41:30.410Z] [INFO] WhatsApp carregando 3%: WhatsApp
+[2026-05-23T12:41:30.578Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T12:41:31.419Z] [INFO] WhatsApp carregando 22%: WhatsApp
+[2026-05-23T12:41:32.489Z] [INFO] WhatsApp carregando 48%: WhatsApp
+[2026-05-23T12:41:33.488Z] [INFO] WhatsApp carregando 71%: WhatsApp
+[2026-05-23T12:41:33.596Z] [INFO] Evento message: fromMe=false from=247158825599203@lid to=558499210586@c.us body=
+[2026-05-23T12:41:33.912Z] [WARN] Mensagem ignorada de 247158825599203: telefone fora da lista permitida.
+[2026-05-23T12:41:34.093Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=E aí?
+[2026-05-23T12:41:34.100Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-23T12:41:34.127Z] [INFO] Evento message: fromMe=false from=43314896199865@lid to=558499210586@c.us body=Bom dia
+[2026-05-23T12:41:34.141Z] [INFO] Evento message: fromMe=false from=43314896199865@lid to=558499210586@c.us body=Meu amigo
+[2026-05-23T12:41:34.198Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCABIAEgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIEBQMB/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAEEAwL/2gAMAwEAAhADEAAAAKfkG7LNASRmniVqWmsjq3Y5tGI3PDEbfphtuRhN4c42nLrVlYFdYFf3uTk6q6B5AAAAAAAAA//EABsRAAIDAQEBAAAAAAAAAAAAAAABAhETMRAw/9oACAECAQE/AK9ckuiafDaRtI2kbSNZFFFFfT//xAAaEQEBAQEAAwAAAAAAAAAAAAABABMSEBEw/9oACAEDAQE/APILIlkWRZFkWRdF1dXV7+f/xAAoEAACAQIEBgIDAQAAAAAAAAAAAQIREwMEEhUxQVFhYpEh8BAiQHH/2gAIAQEAAT8AjNRTVE6mpdDV2GypUqVKlSpUqVHFKCepVfIy+GsXFUZS0rqSyeFGCleX+EsrhqE5LFX6r4XU2TN+Jsmb8TZM34myZvxNkzfibJm/E2XN+Jsub7ezZc329jnJPiXJV5ey5L6y5L6y5IeJOpcn9ZGcnxZqlXiT48j0Ur8KhofRGmXY0vnQ0vohRkuFPxaiyzEtRLaLaLaLaLaLa/s///4AAwD/2Q==
+[2026-05-23T12:41:34.207Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-23T12:41:34.215Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCABIAEgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIEBQED/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAEEAv/aAAwDAQACEAMQAAAAp8g3ZZoCSM04lalprI9W2zaMRtdMRtDFbUjDbivNecWivCivCivCivAOaAAAAAAAAB//xAAcEQACAwADAQAAAAAAAAAAAAAAAQISExARMTD/2gAIAQIBAT8A65ckvRNPw1kayNZGsjWRZlmWZZln8//EABoRAQEAAwEBAAAAAAAAAAAAAAEAERITEDD/2gAIAQMBAT8A9BZEuRci5FyLmWpYLUsFqfP/xAAmEAABAgUEAgIDAAAAAAAAAAAAAQIEERVRkQMTUmISIWFxIkFQ/9oACAEBAAE/AGvRqKkkWZ5JY8vgVSZMmTJkyZMmTFaiMRfJJr+iH001dVGud4pcdB6TWI7eT6HQumjHuTVT8U9JcokX1KJF9SiRfUokX1KJF9SiRfUosX1KLF/GSixfxkXW9+noqfZvLyTJvLybk3l5Jk3l5NyJrLyTJvLybk3U5pk3k5pkpUNZ2SlQ1nZKVDWdkpUNZ2SlQ1nZKVDWdkpUNZ2SlQ1nZKVDWdn+L//+AAMA/9k=
+[2026-05-23T12:41:34.223Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-23T12:41:34.239Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=
+[2026-05-23T12:41:34.269Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Final de semana
+[2026-05-23T12:41:34.340Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Crosby
+[2026-05-23T12:41:34.349Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-23T12:41:34.428Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Tem que deixa para olha dia de semana
+[2026-05-23T12:41:34.460Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Francisca chegou
+[2026-05-23T12:41:34.478Z] [WARN] Mensagem ignorada de 43314896199865: telefone fora da lista permitida.
+[2026-05-23T12:41:34.480Z] [WARN] Mensagem ignorada de 43314896199865: telefone fora da lista permitida.
+[2026-05-23T12:41:34.487Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Graças a Deus
+[2026-05-23T12:41:34.492Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-23T12:41:34.495Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-23T12:41:34.505Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=
+[2026-05-23T12:41:34.510Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-23T12:41:34.523Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=ela nao quer acredita no rato
+[2026-05-23T12:41:34.598Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T12:41:35.048Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-23T12:42:40.874Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=43314896199865@lid remote=43314896199865@lid body=Bom dia meu amigo
+[2026-05-23T12:42:40.891Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T12:42:46.053Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=43314896199865@lid remote=43314896199865@lid body=te mandei uma mensagem errada
+[2026-05-23T12:42:46.070Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T12:42:51.021Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=oi
+[2026-05-23T12:42:51.038Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T12:42:52.309Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Quiz rapido enquanto aguarda
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-23T12:42:52.314Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T12:42:52.340Z] [INFO] Comando de teste processado para 558499210586: oi
+[2026-05-23T12:43:04.439Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=5
+[2026-05-23T12:43:04.454Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-23T12:43:05.700Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖Robo - Certo! Vou chamar um atendente para te ajudar.
+
+Aguarde um momento, por favor.
+
+Enquanto isso, se quiser, voce pode digitar 6 para jogar um quiz rapido.
+[2026-05-23T12:43:05.703Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-23T12:43:05.720Z] [INFO] Comando de teste processado para 558499210586: 5
+[2026-05-23T12:44:36.918Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
