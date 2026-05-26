@@ -1,0 +1,165 @@
+[25/05/2026 16:46:20,74] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 16:46:23,77] Bot encerrado.
+[25/05/2026 17:21:12,80] Reiniciando bot pelo atalho principal.
+[25/05/2026 17:29:15,16] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 17:29:15,91] Bot encerrado.
+[25/05/2026 17:37:06,67] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 17:37:07,42] Bot encerrado.
+[25/05/2026 17:41:24,49] Bot encerrado.
+[25/05/2026 17:41:30,75] Reiniciando bot pelo atalho principal.
+[25/05/2026 17:43:34,13] Bot encerrado.
+[25/05/2026 18:08:29,24] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 18:45:02,03] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 18:45:02,83] Bot encerrado.
+[25/05/2026 21:36:01,41] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 21:36:02,26] Bot encerrado.
+[25/05/2026 21:50:58,72] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 21:50:59,45] Bot encerrado.
+[25/05/2026 22:14:53,33] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 22:14:54,02] Bot encerrado.
+[25/05/2026 22:34:12,22] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 22:34:12,94] Bot encerrado.
+[25/05/2026 22:43:55,91] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 22:43:56,61] Bot encerrado.
+[25/05/2026 22:56:31,03] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 22:56:31,76] Bot encerrado.
+[25/05/2026 22:58:38,40] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 22:58:39,15] Bot encerrado.
+[25/05/2026 23:04:33,20] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[25/05/2026 23:04:33,88] Bot encerrado.
+[25/05/2026 23:13:10,59] Bot encerrado.
+[25/05/2026 23:13:13,22] Reiniciando bot pelo atalho principal.
+[25/05/2026 23:28:10,74] Bot encerrado.
+[25/05/2026 23:28:13,40] Reiniciando bot pelo atalho principal.
+[25/05/2026 23:36:09,68] Bot encerrado.
+[25/05/2026 23:36:11,81] Reiniciando bot pelo atalho principal.
+[26/05/2026  9:15:40,64] Bot encerrado.
+[26/05/2026  9:15:43,29] Reiniciando bot pelo atalho principal.
+[26/05/2026  9:21:08,07] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[26/05/2026  9:21:08,90] Bot encerrado.
+[26/05/2026  9:33:07,42] Bot encerrado.
+[26/05/2026  9:33:09,79] Reiniciando bot pelo atalho principal.
+[26/05/2026  9:41:04,56] Reiniciando bot pelo atalho principal.
+Add-Content : O processo n∆o pode acessar o arquivo 'C:\Users\thieg\Documents\BOT\bot-renaly\logs\launcher.log' porque 
+ele est† sendo usado por outro processo.
+No linha:1 caractere:177
++ ... ch-Object { Add-Content -Path 'logs\launcher.log' -Value ('Encerrando ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\thieg\...gs\launcher.log:String) [Add-Content], IOException
+    + FullyQualifiedErrorId : GetContentWriterIOError,Microsoft.PowerShell.Commands.AddContentCommand
+ 
+[26/05/2026  9:41:05,18] Bot encerrado.
+[26/05/2026  9:58:55,51] Bot encerrado.
+[26/05/2026  9:58:58,25] Reiniciando bot pelo atalho principal.

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1779761982960",
+    "alvo": "teste",
+    "status": "finalizada",
+    "total": 3,
+    "enviados": 2,
+    "falhas": 0,
+    "ignorados": 1,
+    "iniciadaEm": "2026-05-26T02:19:42.960Z",
+    "finalizadaEm": "2026-05-26T02:20:16.794Z",
+    "mensagem": "Campanha finalizada. Enviados: 2. Falhas: 0. Ignorados: 1.",
+    "erro": null
+  },
+  {
+    "id": "1779761826395",
+    "alvo": "lista_salva",
+    "status": "finalizada",
+    "total": 2,
+    "enviados": 2,
+    "falhas": 0,
+    "ignorados": 0,
+    "iniciadaEm": "2026-05-26T02:17:06.395Z",
+    "finalizadaEm": "2026-05-26T02:17:24.989Z",
+    "mensagem": "Campanha finalizada. Enviados: 2. Falhas: 0. Ignorados: 0.",
+    "erro": null
+  }
+]

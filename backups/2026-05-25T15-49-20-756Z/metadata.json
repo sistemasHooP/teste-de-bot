@@ -1,0 +1,11 @@
+{
+  "nome": "2026-05-25T15-49-20-756Z",
+  "criadoEm": "2026-05-25T15:49:20.801Z",
+  "arquivos": [
+    ".env",
+    "data/banco.sqlite",
+    "data/base_csv.json",
+    "data/listas_campanha.json",
+    "data/menu-config.json"
+  ]
+}

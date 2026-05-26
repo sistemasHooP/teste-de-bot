@@ -1,0 +1,18 @@
+[
+  {
+    "titulo": "Atendimento em instantes",
+    "texto": "Ola! Ja recebemos sua mensagem. Assim que nossa equipe desocupar, vamos te atender por aqui."
+  },
+  {
+    "titulo": "Link de agendamento",
+    "texto": "Voce pode fazer seu agendamento on-line pelo link abaixo:\n\n{agendamento_url}\n\nPor la voce escolhe o servico, a data e o horario disponiveis."
+  },
+  {
+    "titulo": "Pedir procedimento desejado",
+    "texto": "Qual procedimento voce deseja fazer? Assim conseguimos te orientar melhor."
+  },
+  {
+    "titulo": "Endereco",
+    "texto": "Nosso endereco:\n{endereco}\n\nPonto de referencia:\n{ponto_referencia}\n\nGoogle Maps:\n{maps_url}"
+  }
+]

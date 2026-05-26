@@ -1,0 +1,4 @@
+[2026-05-24T12:38:38.534Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-24T12:38:38.536Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-24T12:38:38.536Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-24T12:38:38.553Z] [INFO] Interface local disponivel em http://localhost:3333

@@ -103,6 +103,32 @@ function silenciarAteData(telefone, data) {
     .run(data, getIsoNow(), telefone);
 }
 
+function limparSilencio(telefone) {
+  obterOuCriar(telefone);
+
+  getDatabase()
+    .prepare(`
+      UPDATE clientes
+      SET bot_silenciado_ate_data = NULL,
+          atualizado_em = ?
+      WHERE telefone = ?
+    `)
+    .run(getIsoNow(), telefone);
+}
+
+function limparSilencios() {
+  const result = getDatabase()
+    .prepare(`
+      UPDATE clientes
+      SET bot_silenciado_ate_data = NULL,
+          atualizado_em = ?
+      WHERE bot_silenciado_ate_data IS NOT NULL
+    `)
+    .run(getIsoNow());
+
+  return result.changes || 0;
+}
+
 function desativarMenu(telefone) {
   obterOuCriar(telefone);
 
@@ -167,6 +193,76 @@ function estaEmModoHumano(telefone) {
   return Boolean(cliente && cliente.modo_humano === 1);
 }
 
+function listarModoHumano(limit = 100) {
+  return getDatabase()
+    .prepare(`
+      SELECT telefone, nome, modo_humano, ultimo_menu_data, atualizado_em
+      FROM clientes
+      WHERE modo_humano = 1
+      ORDER BY atualizado_em DESC
+      LIMIT ?
+    `)
+    .all(Math.max(1, Math.min(500, Number(limit) || 100)));
+}
+
+function contarModoHumano() {
+  const row = getDatabase()
+    .prepare('SELECT COUNT(*) AS total FROM clientes WHERE modo_humano = 1')
+    .get();
+
+  return row ? row.total : 0;
+}
+
+function contarClientes() {
+  const row = getDatabase()
+    .prepare("SELECT COUNT(*) AS total FROM clientes WHERE telefone IS NOT NULL AND telefone != ''")
+    .get();
+
+  return row ? row.total : 0;
+}
+
+function listarRecentes(limit = 80) {
+  return getDatabase()
+    .prepare(`
+      SELECT
+        telefone,
+        nome,
+        modo_humano,
+        ultimo_menu_data,
+        menu_ativo,
+        menu_ativo_data,
+        menu_ativo_expira_em,
+        bot_silenciado_ate_data,
+        criado_em,
+        atualizado_em
+      FROM clientes
+      ORDER BY atualizado_em DESC
+      LIMIT ?
+    `)
+    .all(Math.max(1, Math.min(300, Number(limit) || 80)));
+}
+
+function getResumoDia(dataAtual) {
+  const inicio = `${dataAtual}T00:00:00`;
+  const proximoDia = new Date(`${dataAtual}T00:00:00Z`);
+  proximoDia.setUTCDate(proximoDia.getUTCDate() + 1);
+  const fim = proximoDia.toISOString().slice(0, 10) + 'T00:00:00';
+
+  const criados = getDatabase()
+    .prepare('SELECT COUNT(*) AS total FROM clientes WHERE criado_em >= ? AND criado_em < ?')
+    .get(inicio, fim);
+  const atualizados = getDatabase()
+    .prepare('SELECT COUNT(*) AS total FROM clientes WHERE atualizado_em >= ? AND atualizado_em < ?')
+    .get(inicio, fim);
+
+  return {
+    data: dataAtual,
+    clientesNovos: criados ? criados.total : 0,
+    clientesAtualizados: atualizados ? atualizados.total : 0,
+    clientesModoHumano: contarModoHumano()
+  };
+}
+
 module.exports = {
   buscarPorTelefone,
   obterOuCriar,
@@ -175,9 +271,16 @@ module.exports = {
   deveEnviarMenuNoPeriodo,
   estaSilenciado,
   silenciarAteData,
+  limparSilencio,
+  limparSilencios,
   desativarMenu,
   menuEstaAtivo,
   ativarModoHumano,
   desativarModoHumano,
-  estaEmModoHumano
+  estaEmModoHumano,
+  listarModoHumano,
+  contarModoHumano,
+  contarClientes,
+  listarRecentes,
+  getResumoDia
 };

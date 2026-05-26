@@ -7,14 +7,23 @@ const logger = require('./logger');
 const { initDatabase, closeDatabase } = require('./database');
 const { handleIncomingMessage, handleOutgoingMessage } = require('./atendimento');
 const { ensureDirectoryExists } = require('./utils');
-const { getStatus, updateStatus } = require('./status');
+const { getStatus, updateStatus, updateCampaignStatus } = require('./status');
 const { startInterface } = require('./interface');
+const { processarCampanhaEmBackground, cancelarCampanha } = require('./campanha');
+const menu = require('./menu');
 
 let client = null;
 let shuttingDown = false;
 let restarting = false;
+let initializingClient = false;
 let readyWatchTimer = null;
+let healthWatchTimer = null;
 let interfaceServer = null;
+let clientGeneration = 0;
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 function getQrAscii(qr) {
   let output = '';
@@ -25,8 +34,36 @@ function getQrAscii(qr) {
 }
 
 function getReadyTimeoutMs() {
-  const value = Number(process.env.READY_TIMEOUT_MS || 90000);
-  return Number.isFinite(value) && value >= 30000 ? value : 90000;
+  const value = Number(process.env.READY_TIMEOUT_MS || 180000);
+  return Number.isFinite(value) && value >= 60000 ? value : 180000;
+}
+
+function getDestroyTimeoutMs() {
+  const value = Number(process.env.DESTROY_TIMEOUT_MS || 15000);
+  return Number.isFinite(value) && value >= 5000 ? value : 15000;
+}
+
+function getHealthWatchIntervalMs() {
+  const value = Number(process.env.HEALTH_WATCH_INTERVAL_MS || 20000);
+  return Number.isFinite(value) && value >= 10000 ? value : 20000;
+}
+
+function getIsoNow() {
+  return new Date().toISOString();
+}
+
+function isOlderThan(value, ms) {
+  if (!value) {
+    return false;
+  }
+
+  const time = new Date(value).getTime();
+
+  if (Number.isNaN(time)) {
+    return false;
+  }
+
+  return Date.now() - time > ms;
 }
 
 function createClient() {
@@ -39,7 +76,15 @@ function createClient() {
     takeoverTimeoutMs: 0,
     puppeteer: {
       headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+        '--no-first-run',
+        '--no-default-browser-check',
+        '--disable-extensions'
+      ]
     }
   });
 }
@@ -51,21 +96,135 @@ function clearReadyWatch() {
   }
 }
 
-function scheduleReadyWatch(reason) {
+function scheduleReadyWatch(reason, generation = clientGeneration) {
   clearReadyWatch();
 
   readyWatchTimer = setTimeout(async () => {
-    if (shuttingDown || restarting) {
+    if (shuttingDown || restarting || !isCurrentGeneration(generation)) {
+      return;
+    }
+
+    if (getStatus().ready) {
       return;
     }
 
     logger.warn(`WhatsApp nao ficou pronto a tempo depois de ${reason}. Reiniciando cliente...`);
-    await restartWhatsAppClient(`timeout aguardando ready depois de ${reason}`);
+    await recoverWhatsAppClient(`timeout aguardando ready depois de ${reason}`);
   }, getReadyTimeoutMs());
 }
 
-function registerClientEvents(whatsClient) {
+function isCurrentGeneration(generation) {
+  return generation === clientGeneration;
+}
+
+function shouldRecoverStuckClient(status) {
+  if (!client || status.ready || restarting || shuttingDown) {
+    return null;
+  }
+
+  const timeout = getReadyTimeoutMs();
+
+  if (status.authenticated && isOlderThan(status.lastAuthenticatedAt, timeout)) {
+    return 'autenticado sem ficar pronto';
+  }
+
+  if (status.initializing && isOlderThan(status.lastLoadingAt || status.lastAuthenticatedAt, timeout)) {
+    return 'inicializacao sem progresso';
+  }
+
+  if (String(status.whatsappStatus || '').includes('carregando') && isOlderThan(status.lastLoadingAt, timeout)) {
+    return 'carregamento travado';
+  }
+
+  return null;
+}
+
+async function runHealthCheck() {
+  if (shuttingDown || restarting || !client) {
+    return;
+  }
+
+  let status = getStatus();
+  const stuckReason = shouldRecoverStuckClient(status);
+
+  if (stuckReason) {
+    logger.warn(`Monitor de conexao detectou travamento: ${stuckReason}.`);
+    await recoverWhatsAppClient(`monitor de conexao: ${stuckReason}`);
+    return;
+  }
+
+  if (initializingClient) {
+    return;
+  }
+
+  if (!status.ready) {
+    return;
+  }
+
+  try {
+    const state = typeof client.getState === 'function' ? await client.getState() : null;
+    const patch = {
+      lastHealthCheckAt: getIsoNow(),
+      lastHealthState: state || 'desconhecido'
+    };
+
+    if (state === 'CONNECTED' && !status.ready) {
+      Object.assign(patch, {
+        whatsappStatus: 'pronto',
+        authenticated: true,
+        ready: true,
+        initializing: false,
+        restarting: false,
+        lastReadyAt: getIsoNow(),
+        lastQrText: null,
+        lastQrAscii: null
+      });
+      clearReadyWatch();
+      logger.info('Monitor de conexao corrigiu status para pronto.');
+    }
+
+    updateStatus(patch);
+    status = getStatus();
+
+    if (status.ready && state && !['CONNECTED', 'OPENING', 'PAIRING'].includes(state)) {
+      logger.warn(`Monitor de conexao encontrou estado inesperado: ${state}.`);
+      await recoverWhatsAppClient(`estado inesperado no monitor: ${state}`);
+    }
+  } catch (error) {
+    updateStatus({
+      lastHealthCheckAt: getIsoNow(),
+      lastHealthState: 'erro',
+      lastError: error.message
+    });
+    logger.warn('Monitor de conexao falhou ao consultar estado:', error.message);
+    await recoverWhatsAppClient(`monitor nao conseguiu consultar estado: ${error.message}`);
+  }
+}
+
+function startHealthWatchdog() {
+  if (healthWatchTimer) {
+    return;
+  }
+
+  runHealthCheck()
+    .catch((error) => logger.error('Erro no monitor de conexao:', error));
+
+  healthWatchTimer = setInterval(() => {
+    runHealthCheck()
+      .catch((error) => logger.error('Erro no monitor de conexao:', error));
+  }, getHealthWatchIntervalMs());
+}
+
+function stopHealthWatchdog() {
+  if (healthWatchTimer) {
+    clearInterval(healthWatchTimer);
+    healthWatchTimer = null;
+  }
+}
+
+function registerClientEvents(whatsClient, generation) {
   whatsClient.on('qr', (qr) => {
+    if (!isCurrentGeneration(generation)) return;
     clearReadyWatch();
     updateStatus({
       whatsappStatus: 'aguardando QR Code',
@@ -80,19 +239,24 @@ function registerClientEvents(whatsClient) {
   });
 
   whatsClient.on('authenticated', () => {
+    if (!isCurrentGeneration(generation)) return;
+    const currentStatus = getStatus();
     updateStatus({
-      whatsappStatus: 'autenticado',
+      whatsappStatus: currentStatus.ready ? 'pronto' : 'autenticado',
       authenticated: true,
-      ready: false,
-      lastAuthenticatedAt: new Date().toISOString(),
+      ready: currentStatus.ready,
+      lastAuthenticatedAt: getIsoNow(),
       lastQrText: null,
       lastQrAscii: null
     });
-    scheduleReadyWatch('autenticacao');
+    if (!currentStatus.ready) {
+      scheduleReadyWatch('autenticacao', generation);
+    }
     logger.info('WhatsApp autenticado com sucesso.');
   });
 
   whatsClient.on('auth_failure', (message) => {
+    if (!isCurrentGeneration(generation)) return;
     updateStatus({
       whatsappStatus: 'falha de autenticacao',
       authenticated: false,
@@ -103,6 +267,7 @@ function registerClientEvents(whatsClient) {
   });
 
   whatsClient.on('ready', () => {
+    if (!isCurrentGeneration(generation)) return;
     clearReadyWatch();
     updateStatus({
       whatsappStatus: 'pronto',
@@ -110,7 +275,7 @@ function registerClientEvents(whatsClient) {
       ready: true,
       initializing: false,
       restarting: false,
-      lastReadyAt: new Date().toISOString(),
+      lastReadyAt: getIsoNow(),
       lastQrText: null,
       lastQrAscii: null
     });
@@ -118,50 +283,74 @@ function registerClientEvents(whatsClient) {
   });
 
   whatsClient.on('disconnected', (reason) => {
+    if (!isCurrentGeneration(generation)) return;
     clearReadyWatch();
     updateStatus({
       whatsappStatus: 'desconectado',
       ready: false,
       authenticated: false,
       initializing: false,
-      lastDisconnectedAt: new Date().toISOString(),
+      lastDisconnectedAt: getIsoNow(),
       lastDisconnectedReason: reason
     });
     logger.warn('WhatsApp desconectado:', reason);
+
+    if (!shuttingDown && !restarting) {
+      setTimeout(() => {
+        if (!shuttingDown && client) {
+          recoverWhatsAppClient(`desconexao detectada: ${reason}`)
+            .catch((error) => logger.error('Erro ao recuperar apos desconexao:', error));
+        }
+      }, 5000);
+    }
   });
 
   whatsClient.on('loading_screen', (percent, message) => {
+    if (!isCurrentGeneration(generation)) return;
+    const currentStatus = getStatus();
+
     updateStatus({
-      whatsappStatus: 'carregando',
+      whatsappStatus: currentStatus.ready ? 'pronto' : 'carregando',
       loadingPercent: percent,
-      loadingMessage: message
+      loadingMessage: message,
+      lastLoadingAt: getIsoNow()
     });
+
+    if (!currentStatus.ready) {
+      scheduleReadyWatch(`carregamento ${percent}%`, generation);
+    }
+
     logger.info(`WhatsApp carregando ${percent}%: ${message}`);
   });
 
   whatsClient.on('change_state', (state) => {
-    updateStatus({
-      whatsappStatus: `estado ${state}`
-    });
+    if (!isCurrentGeneration(generation)) return;
+    const currentStatus = getStatus();
+    updateStatus(currentStatus.ready
+      ? { lastHealthState: state, lastHealthCheckAt: getIsoNow() }
+      : { whatsappStatus: `estado ${state}`, lastHealthState: state, lastHealthCheckAt: getIsoNow() });
     logger.info('Estado do WhatsApp:', state);
   });
 
   whatsClient.on('message', async (message) => {
+    if (!isCurrentGeneration(generation)) return;
     await handleIncomingMessage(whatsClient, message);
   });
 
   // O evento message_create permite capturar o comando /bot enviado manualmente por voce.
   whatsClient.on('message_create', async (message) => {
+    if (!isCurrentGeneration(generation)) return;
     await handleOutgoingMessage(whatsClient, message);
   });
 }
 
 async function initializeWhatsAppClient() {
-  if (client) {
+  if (client || initializingClient) {
     logger.warn('Cliente WhatsApp ja existe. Use reiniciar se quiser recriar a conexao.');
     return;
   }
 
+  initializingClient = true;
   updateStatus({
     whatsappStatus: 'inicializando',
     ready: false,
@@ -171,35 +360,84 @@ async function initializeWhatsAppClient() {
     lastQrAscii: null
   });
 
+  clientGeneration++;
+  const generation = clientGeneration;
   client = createClient();
-  registerClientEvents(client);
-  scheduleReadyWatch('inicializacao');
-  await client.initialize();
+  registerClientEvents(client, generation);
+  scheduleReadyWatch('inicializacao', generation);
+
+  try {
+    await client.initialize();
+  } catch (error) {
+    clearReadyWatch();
+    updateStatus({
+      whatsappStatus: 'erro ao inicializar',
+      ready: false,
+      authenticated: false,
+      initializing: false,
+      lastError: error.message
+    });
+    logger.error('Erro ao inicializar cliente WhatsApp:', error);
+    await destroyWhatsAppClient();
+  } finally {
+    initializingClient = false;
+  }
 }
 
 async function startWhatsAppClient(reason) {
   if (client) {
-    logger.warn(`Inicio ignorado: cliente WhatsApp ja esta ativo. Motivo: ${reason}`);
+    if (!getStatus().ready) {
+      logger.warn(`Cliente WhatsApp existe, mas nao esta pronto. Tentando recuperar. Motivo: ${reason}`);
+      recoverWhatsAppClient(`inicio solicitado com cliente travado: ${reason}`)
+        .catch((error) => logger.error('Erro ao recuperar cliente:', error));
+      return;
+    }
+
+    logger.warn(`Inicio ignorado: cliente WhatsApp ja esta pronto. Motivo: ${reason}`);
     return;
   }
 
   logger.info(`Iniciando cliente WhatsApp: ${reason}`);
-  await initializeWhatsAppClient();
+  initializeWhatsAppClient()
+    .catch((error) => logger.error('Erro ao iniciar cliente WhatsApp:', error));
 }
 
 async function destroyWhatsAppClient() {
   clearReadyWatch();
+  initializingClient = false;
 
   if (!client) {
     return;
   }
 
+  const currentClient = client;
+  client = null;
+  clientGeneration++;
+
   try {
-    await client.destroy();
+    if (typeof currentClient.removeAllListeners === 'function') {
+      currentClient.removeAllListeners();
+    }
+
+    await Promise.race([
+      currentClient.destroy(),
+      sleep(getDestroyTimeoutMs()).then(() => {
+        throw new Error('Timeout ao destruir cliente WhatsApp.');
+      })
+    ]);
   } catch (error) {
     logger.error('Erro ao destruir cliente WhatsApp:', error);
-  } finally {
-    client = null;
+
+    try {
+      if (currentClient.pupBrowser && typeof currentClient.pupBrowser.close === 'function') {
+        await Promise.race([
+          currentClient.pupBrowser.close(),
+          sleep(5000)
+        ]);
+      }
+    } catch (browserError) {
+      logger.warn('Nao foi possivel fechar o navegador interno:', browserError.message);
+    }
   }
 }
 
@@ -212,9 +450,10 @@ async function restartWhatsAppClient(reason) {
   updateStatus({
     whatsappStatus: 'reiniciando',
     ready: false,
+    authenticated: false,
     initializing: false,
     restarting: true,
-    lastRestartAt: new Date().toISOString()
+    lastRestartAt: getIsoNow()
   });
   logger.warn(`Reiniciando cliente WhatsApp: ${reason}`);
 
@@ -223,7 +462,8 @@ async function restartWhatsAppClient(reason) {
     updateStatus({
       restartCount: getStatus().restartCount + 1
     });
-    await initializeWhatsAppClient();
+    initializeWhatsAppClient()
+      .catch((error) => logger.error('Erro ao iniciar apos reinicio:', error));
   } catch (error) {
     updateStatus({
       whatsappStatus: 'erro ao reiniciar',
@@ -231,6 +471,46 @@ async function restartWhatsAppClient(reason) {
       restarting: false
     });
     logger.error('Erro ao reiniciar cliente WhatsApp:', error);
+  } finally {
+    restarting = false;
+  }
+}
+
+async function clearWhatsAppCache() {
+  await removeDirectorySafely(path.join(config.paths.rootDir, '.wwebjs_cache'));
+}
+
+async function recoverWhatsAppClient(reason) {
+  if (restarting || shuttingDown) {
+    return;
+  }
+
+  restarting = true;
+  updateStatus({
+    whatsappStatus: 'recuperando conexao',
+    ready: false,
+    authenticated: false,
+    initializing: false,
+    restarting: true,
+    lastRestartAt: getIsoNow()
+  });
+  logger.warn(`Recuperando conexao WhatsApp: ${reason}`);
+
+  try {
+    await destroyWhatsAppClient();
+    await clearWhatsAppCache();
+    updateStatus({
+      restartCount: getStatus().restartCount + 1
+    });
+    initializeWhatsAppClient()
+      .catch((error) => logger.error('Erro ao inicializar na recuperacao:', error));
+  } catch (error) {
+    updateStatus({
+      whatsappStatus: 'erro ao recuperar',
+      lastError: error.message,
+      restarting: false
+    });
+    logger.error('Erro ao recuperar cliente WhatsApp:', error);
   } finally {
     restarting = false;
   }
@@ -294,9 +574,12 @@ async function clearWhatsAppSession(reason) {
     restarting: false,
     lastQrText: null,
     lastQrAscii: null,
-    lastDisconnectedAt: new Date().toISOString(),
+    lastDisconnectedAt: getIsoNow(),
     lastDisconnectedReason: 'sessao apagada pela interface'
   });
+
+  initializeWhatsAppClient()
+    .catch((error) => logger.error('Erro ao iniciar WhatsApp apos apagar sessao:', error));
 }
 
 async function shutdown(signal) {
@@ -309,6 +592,7 @@ async function shutdown(signal) {
 
   try {
     clearReadyWatch();
+    stopHealthWatchdog();
 
     if (interfaceServer) {
       await new Promise((resolve) => interfaceServer.close(resolve));
@@ -350,12 +634,52 @@ async function main() {
       initializing: false,
       restarting: false
     });
+    startHealthWatchdog();
 
     interfaceServer = startInterface({
       startWhatsApp: startWhatsAppClient,
       stopWhatsApp: stopWhatsAppClient,
       restartWhatsApp: restartWhatsAppClient,
-      clearWhatsAppSession
+      recoverWhatsApp: recoverWhatsAppClient,
+      clearWhatsAppSession,
+      dispararCampanha: async (payload) => {
+        if (!client || !getStatus().ready) {
+          updateCampaignStatus({
+            ativa: false,
+            status: 'erro',
+            erro: 'WhatsApp nao esta pronto.',
+            mensagem: 'Conecte o WhatsApp antes de iniciar a campanha.'
+          });
+          throw new Error('WhatsApp nao esta pronto. Conecte o WhatsApp antes de iniciar a campanha.');
+        }
+
+        await processarCampanhaEmBackground(client, payload);
+      },
+      enviarSalmoDia: async (payload) => {
+        const alvo = payload.alvo || 'teste';
+
+        if (!client || !getStatus().ready) {
+          updateCampaignStatus({
+            ativa: false,
+            status: 'erro',
+            erro: 'WhatsApp nao esta pronto.',
+            mensagem: 'Conecte o WhatsApp antes de enviar o salmo do dia.'
+          });
+          throw new Error('WhatsApp nao esta pronto. Conecte o WhatsApp antes de enviar o salmo do dia.');
+        }
+
+        if (config.modoTeste && alvo !== 'teste') {
+          throw new Error('Modo teste ativo: o salmo do dia so pode ser enviado para os numeros de teste.');
+        }
+
+        await processarCampanhaEmBackground(client, {
+          alvo,
+          texto: menu.getSalmoDoDiaMensagem(),
+          delayMinMs: payload.delayMinMs || 10000,
+          delayMaxMs: payload.delayMaxMs || 25000
+        });
+      },
+      cancelarCampanha
     });
 
     if (config.autoStartWhatsApp) {

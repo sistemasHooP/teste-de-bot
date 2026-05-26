@@ -1,0 +1,76 @@
+{
+  "comportamento": {
+    "digitandoAtivo": true,
+    "tempoDigitandoMs": 1200,
+    "atrasoRespostaMs": 0,
+    "intervaloMenuDias": 7,
+    "janelaMenuMinutos": 30,
+    "historicoMensagensAtivo": false,
+    "responderTodosClientes": false
+  },
+  "menu": {
+    "titulo": "🤖Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.",
+    "subtitulo": "Como posso te ajudar hoje?",
+    "instrucao": "Digite uma das opcoes abaixo:",
+    "rodape": "Digite *menu* a qualquer momento para ver essas opcoes novamente.",
+    "palavrasChave": [
+      "menu",
+      "voltar",
+      "inicio"
+    ],
+    "saudacoes": [
+      "oi",
+      "ola",
+      "bom dia",
+      "boa tarde",
+      "boa noite"
+    ],
+    "respostaGenerica": "Para continuar, digite uma das opcoes do menu ou digite menu para ver novamente.",
+    "respostaOpcaoInvalida": "Nao encontrei essa opcao. Digite uma das opcoes do menu ou digite menu para ver novamente.",
+    "respostaModoHumano": "Seu atendimento esta com um atendente no momento.\n\nPara retornar ao menu automatico, aguarde a reativacao pelo responsavel.",
+    "opcoes": [
+      {
+        "numero": "1",
+        "titulo": "Catalogo de servicos",
+        "tipo": "mensagem",
+        "mensagem": "🤖Robo - Catalogo de servicos da Renaly Basilio Estetica:\n\n- Limpeza de pele\n- Design de sobrancelhas\n- Depilacao\n- Massagem\n- Outros procedimentos\n\nPara agendamento, volte ao *menu* e escolha a opcao de agendamento on-line.",
+        "submenus": []
+      },
+      {
+        "numero": "2",
+        "titulo": "Endereco",
+        "tipo": "mensagem",
+        "mensagem": "🤖Robo - Endereco da Renaly Basilio Estetica:\n\nCOLOCAR ENDERECO AQUI\n\nPonto de referencia:\nCOLOCAR PONTO DE REFERENCIA AQUI\n\nGoogle Maps:\nCOLOCAR LINK DO GOOGLE MAPS AQUI",
+        "submenus": []
+      },
+      {
+        "numero": "3",
+        "titulo": "Fazer agendamento on-line",
+        "tipo": "mensagem",
+        "mensagem": "🤖Robo - Para fazer seu agendamento on-line, acesse:\n\nCOLOCAR LINK DO MINHAAGENDA AQUI\n\nPelo link voce podera escolher o servico, a data e o horario disponiveis diretamente no app MinhaAgenda.",
+        "submenus": []
+      },
+      {
+        "numero": "4",
+        "titulo": "Horario de funcionamento",
+        "tipo": "mensagem",
+        "mensagem": "🤖Robo - Horario de funcionamento:\n\nSegunda a sexta: 08h as 18h | Sabado: 08h as 12h",
+        "submenus": []
+      },
+      {
+        "numero": "5",
+        "titulo": "Falar com um atendente",
+        "tipo": "humano",
+        "mensagem": "🤖Robo - Certo! Vou chamar um atendente para te ajudar.\n\nAguarde um momento, por favor.\n\nEnquanto isso, se quiser, voce pode digitar 6 para jogar um quiz rapido.",
+        "submenus": []
+      },
+      {
+        "numero": "6",
+        "titulo": "Quiz rapido enquanto aguarda",
+        "tipo": "quiz",
+        "mensagem": "",
+        "submenus": []
+      }
+    ]
+  }
+}

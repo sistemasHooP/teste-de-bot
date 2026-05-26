@@ -1,5 +1,4 @@
 const menu = require('./menu');
-const quiz = require('./quiz');
 const { normalizeText } = require('./utils');
 
 function getAjudaTeste() {
@@ -15,7 +14,7 @@ Comandos disponiveis:
 /3 ou /agenda - Link de agendamento
 /4 ou /horario - Horario de funcionamento
 /5 ou /atendente - Simular atendimento humano
-/6 ou /quiz - Iniciar quiz de teste
+/salmo - Ver salmo do dia
 /1.1 - Testar um submenu, se existir
 /bot - Reativar atendimento automatico de um cliente`;
 }
@@ -27,11 +26,34 @@ function respostaPorOpcao(telefone, opcao) {
     return null;
   }
 
-  if (resposta.tipo === 'quiz') {
-    return quiz.iniciarQuiz(telefone);
+  if (resposta.tipo === 'salmo') {
+    return resposta.mensagem;
   }
 
   return resposta.mensagem;
+}
+
+function respostaAtendenteTeste(telefone, opcao = '5') {
+  const resposta = respostaPorOpcao(telefone, opcao) || menu.getAtendimentoHumano();
+  const behavior = menu.getBehavior();
+
+  if (!behavior.mensagemAutomaticaEsperaAtiva) {
+    return resposta;
+  }
+
+  let extra = menu.getMensagemAutomaticaEspera();
+
+  if (behavior.mensagemAutomaticaEsperaTipo === 'salmo') {
+    extra = menu.getSalmoDoDiaMensagem();
+  }
+
+  if (behavior.mensagemAutomaticaEsperaTipo === 'biblia') {
+    extra = menu.getMensagemAutomaticaEsperaComPalavraBiblica();
+  }
+
+  return extra && extra.trim()
+    ? `${resposta}\n\n[depois da pausa configurada]\n\n${extra}`
+    : resposta;
 }
 
 function obterRespostaTeste(telefone, texto) {
@@ -45,12 +67,27 @@ function obterRespostaTeste(telefone, texto) {
     return getAjudaTeste();
   }
 
-  if (comando === '/ola' || comando === '/menu') {
+  if (comando === '/ola') {
+    return `${menu.getMensagemRecepcaoAntesMenu()}\n\n[no WhatsApp real, o bot aguarda a pausa configurada e envia o menu em outra mensagem]\n\n${menu.getMenuPrincipal()}`;
+  }
+
+  if (comando === '/menu') {
     return menu.getMenuPrincipal();
   }
 
+  if (comando === '/5') {
+    return respostaAtendenteTeste(telefone, '5');
+  }
+
   if (/^\/\d+(\.\d+)*$/.test(comando)) {
-    return respostaPorOpcao(telefone, comando.slice(1));
+    const opcao = comando.slice(1);
+    const resposta = menu.getRespostaOpcao(opcao);
+
+    if (resposta && resposta.tipo === 'humano') {
+      return respostaAtendenteTeste(telefone, opcao);
+    }
+
+    return respostaPorOpcao(telefone, opcao);
   }
 
   if (comando === '/catalogo') {
@@ -70,11 +107,14 @@ function obterRespostaTeste(telefone, texto) {
   }
 
   if (comando === '/atendente') {
-    return respostaPorOpcao(telefone, '5') || menu.getAtendimentoHumano();
+    return respostaAtendenteTeste(telefone, menu.getPrimeiraOpcaoPorTipo('humano') || '5');
   }
 
-  if (comando === '/quiz') {
-    return quiz.iniciarQuiz(telefone);
+  if (comando === '/salmo') {
+    const opcoes = menu.getMenuPrincipal().split('\n');
+    const linhaSalmo = opcoes.find((linha) => linha.toLowerCase().includes('salmo do dia'));
+    const numero = linhaSalmo ? linhaSalmo.split(' - ')[0].trim() : null;
+    return numero ? respostaPorOpcao(telefone, numero) : null;
   }
 
   return null;

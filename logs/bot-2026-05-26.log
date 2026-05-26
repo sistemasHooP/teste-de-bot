@@ -1,0 +1,1157 @@
+[2026-05-26T00:35:20.034Z] [INFO] Interface local disponivel em http://localhost:3999
+[2026-05-26T00:36:05.218Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T00:36:05.219Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T00:36:05.220Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-26T00:36:05.235Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T00:36:17.269Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T00:36:22.125Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-26T00:36:24.879Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T00:36:25.904Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T00:36:25.917Z] [INFO] Evento message: fromMe=false from=40132258299935@lid to=558499210586@c.us body=/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCABIAEgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECBAMF/9oADAMBAAIQAxAAAADwde692Pm6lEztXMKso1VGQx13UrnNCtLpm2hxNy6wKKO0bWZJpWpaKWOsjyGU+7bIjjvOGHLZ3zzofVPKmZDO2bukDLy2GP2q6gccPEHecAOp/8QAIREAAQMDBAMAAAAAAAAAAAAAAQAQEQIDExIgISIxQVH/2gAIAQIBAT8Aloc7oYNUCRAWg/VjI9rHV5l7p7q8eQrRmgN//8QAHhEAAgICAwEBAAAAAAAAAAAAAAECEQMQBBITMVH/2gAIAQMBAT8AeX8Ozf0T1ZEQtWIssssxTUJW1Ys8WrURZ4v5E94VTjpHFivJHEVJsnjj3b1//8QAKRAAAgIBAwIGAQUAAAAAAAAAAQIAEQMSITFBUQQTIlJhkXEQMmKxwf/aAAgBAQABPwDmJgdulCYvCqql237THjRgNR0jtFxopL43qjV9o4RgwfJzv+Y4Gr08QiERMKJwsKMOkFgVpuEMTdTQ1GgYwZgPTxCjdjCjb7cQiVCR0Jn3CBWwaE70NXzNv5Sid/VGK2bLQj9AliwDDjf2n4nlvXBhxlT6gYBY4a5R6hqjhRyDcIhEBIPJqNqrbV9w6q21fcIJHX7mkjofuMPhq/MayYRCJa1+2EjsahI7GFhWwM1L2P3NQvcGodFHY3CIZhCaBfJhVLrr2qBAWr/Iy4yKUDb4gxpW/J+J5aCq/qPjxNjIvc/EYUSIRLI4MbKUGotQEXxqZH0jJvNbe4ws/czW/uM8x6rVGIG5MIhE8YNRRSLF7iPjwHDQQaq2iKSqiP5QxUeRzPEZExGydjxMni2OyCozsx3JM//+AAMA/9k=
+[2026-05-26T00:36:25.927Z] [WARN] Mensagem ignorada de 40132258299935: telefone fora da lista permitida.
+[2026-05-26T00:36:26.785Z] [INFO] WhatsApp carregando 18%: WhatsApp
+[2026-05-26T00:36:27.044Z] [INFO] Evento message: fromMe=false from=40132258299935@lid to=558499210586@c.us body=Após o evento o prefeito Joca Basílio e a Primeira Dama Leninha Teixeira, tem a satisfação de convidar para juntos , recepcionarmos o Senador Styvison em sua residência na Serra da Formiga logo  após o evento. 
+
+Pedimos confirmação.
+[2026-05-26T00:36:27.050Z] [WARN] Mensagem ignorada de 40132258299935: telefone fora da lista permitida.
+[2026-05-26T00:36:27.806Z] [INFO] WhatsApp carregando 30%: WhatsApp
+[2026-05-26T00:36:28.565Z] [INFO] Evento message: fromMe=false from=5901402505259@lid to=558499210586@c.us body=Pronto
+[2026-05-26T00:36:28.571Z] [WARN] Mensagem ignorada de 5901402505259: telefone fora da lista permitida.
+[2026-05-26T00:36:28.579Z] [INFO] Evento message: fromMe=false from=5901402505259@lid to=558499210586@c.us body=Vou comprar ele mesmo
+[2026-05-26T00:36:28.583Z] [WARN] Mensagem ignorada de 5901402505259: telefone fora da lista permitida.
+[2026-05-26T00:36:28.809Z] [INFO] WhatsApp carregando 44%: WhatsApp
+[2026-05-26T00:36:29.809Z] [INFO] WhatsApp carregando 68%: WhatsApp
+[2026-05-26T00:36:30.925Z] [INFO] WhatsApp carregando 86%: WhatsApp
+[2026-05-26T00:36:31.644Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=5540642062499@lid remote=5540642062499@lid body=Video Final (1).mp4
+[2026-05-26T00:36:31.653Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:36:31.657Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=5540642062499@lid remote=5540642062499@lid body=Video Final.mp4
+[2026-05-26T00:36:31.677Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:36:31.930Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-26T00:36:32.268Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T00:36:48.308Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T00:36:48.436Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:36:49.705Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T00:36:49.708Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:36:53.962Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T00:36:53.964Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:36:53.979Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T00:37:23.234Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=5
+[2026-05-26T00:37:23.246Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:37:24.470Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Certo! Vou chamar um atendente para te ajudar.
+
+Aguarde um momento, por favor.
+[2026-05-26T00:37:24.472Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:37:24.487Z] [INFO] Comando de teste processado para 558499210586: 5
+[2026-05-26T00:37:54.010Z] [INFO] Evento message: fromMe=false from=266275574046957@lid to=558499210586@c.us body=
+[2026-05-26T00:37:54.215Z] [WARN] Mensagem ignorada de 266275574046957: telefone fora da lista permitida.
+[2026-05-26T00:38:02.277Z] [WARN] WhatsApp nao ficou pronto a tempo depois de carregamento 99%. Reiniciando cliente...
+[2026-05-26T00:38:02.278Z] [WARN] Recuperando conexao WhatsApp: timeout aguardando ready depois de carregamento 99%
+[2026-05-26T00:38:06.115Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T00:38:09.235Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T00:39:39.239Z] [WARN] WhatsApp nao ficou pronto a tempo depois de autenticacao. Reiniciando cliente...
+[2026-05-26T00:39:39.241Z] [WARN] Recuperando conexao WhatsApp: timeout aguardando ready depois de autenticacao
+[2026-05-26T00:39:43.200Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T00:39:45.889Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T00:41:15.905Z] [WARN] WhatsApp nao ficou pronto a tempo depois de autenticacao. Reiniciando cliente...
+[2026-05-26T00:41:15.907Z] [WARN] Recuperando conexao WhatsApp: timeout aguardando ready depois de autenticacao
+[2026-05-26T00:41:19.858Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T00:41:22.622Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T00:42:52.632Z] [WARN] WhatsApp nao ficou pronto a tempo depois de autenticacao. Reiniciando cliente...
+[2026-05-26T00:42:52.633Z] [WARN] Recuperando conexao WhatsApp: timeout aguardando ready depois de autenticacao
+[2026-05-26T00:42:56.941Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T00:42:59.624Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T00:44:29.625Z] [WARN] WhatsApp nao ficou pronto a tempo depois de autenticacao. Reiniciando cliente...
+[2026-05-26T00:44:29.626Z] [WARN] Recuperando conexao WhatsApp: timeout aguardando ready depois de autenticacao
+[2026-05-26T00:44:33.498Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T00:44:36.352Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T00:44:37.640Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T00:45:36.444Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=5901402505259@lid remote=5901402505259@lid body=É sim! Mas ele vem sem sistema operacional. Em poucas palavras eu sistema que faz o pc funcionar o falado Windows
+[2026-05-26T00:46:37.789Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=5901402505259@lid remote=5901402505259@lid body=Se comprar esse assim vai precisar. Formatar o pc e instalar o Windows para poder usar o pc
+[2026-05-26T00:47:12.414Z] [INFO] Evento message: fromMe=false from=5901402505259@lid to=558499210586@c.us body=
+[2026-05-26T00:47:12.429Z] [WARN] Mensagem ignorada de 5901402505259: telefone fora da lista permitida.
+[2026-05-26T00:48:34.921Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=5901402505259@lid remote=5901402505259@lid body=É o mesmo pc que mandei, a diferença é que esse que vc mandou não tem sistema operacional. Quando ele chegar vc vai precisar mandar formatar e instalar o Windows para começar a usar
+[2026-05-26T00:48:48.691Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=5901402505259@lid remote=5901402505259@lid body=O que eu mandei ele já está pronto. Só chegar e usar
+[2026-05-26T00:49:36.597Z] [INFO] Evento message: fromMe=false from=5901402505259@lid to=558499210586@c.us body=
+[2026-05-26T00:49:36.610Z] [WARN] Mensagem ignorada de 5901402505259: telefone fora da lista permitida.
+[2026-05-26T00:49:43.876Z] [INFO] Evento message: fromMe=false from=5901402505259@lid to=558499210586@c.us body=
+[2026-05-26T00:49:43.886Z] [WARN] Mensagem ignorada de 5901402505259: telefone fora da lista permitida.
+[2026-05-26T00:50:15.648Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=5901402505259@lid remote=5901402505259@lid body=O sistema vc procura Windows 11
+[2026-05-26T00:50:37.283Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=5901402505259@lid remote=5901402505259@lid body=Pode comprar sem medo! Já comprei muito por lá
+[2026-05-26T00:50:50.294Z] [INFO] Evento message: fromMe=false from=5901402505259@lid to=558499210586@c.us body=Vou baixar o app então
+[2026-05-26T00:50:50.304Z] [WARN] Mensagem ignorada de 5901402505259: telefone fora da lista permitida.
+[2026-05-26T00:51:01.641Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T00:51:01.642Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T00:51:01.642Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-26T00:51:01.657Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T00:51:32.802Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T00:51:36.539Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-26T00:51:39.312Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T00:51:39.788Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T00:52:35.662Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T00:52:37.666Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T00:52:42.036Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T00:52:44.930Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T00:52:46.079Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T00:53:24.565Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-26T00:53:24.580Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:53:25.871Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T00:53:25.876Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:53:25.900Z] [INFO] Comando de teste processado para 558499210586: menu
+[2026-05-26T00:53:33.062Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=6
+[2026-05-26T00:53:33.073Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:53:34.308Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Salmo do dia
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T00:53:34.310Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:53:34.325Z] [INFO] Comando de teste processado para 558499210586: 6
+[2026-05-26T00:53:41.566Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=5
+[2026-05-26T00:53:41.577Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:53:42.811Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Certo! Vou chamar um atendente para te ajudar.
+
+Aguarde um momento, por favor.
+[2026-05-26T00:53:42.813Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:53:42.827Z] [INFO] Comando de teste processado para 558499210586: 5
+[2026-05-26T00:54:03.562Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T00:54:03.572Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:54:04.791Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T00:54:04.792Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:54:09.052Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T00:54:09.053Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:54:09.068Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T00:54:52.714Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T00:54:52.725Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:54:53.942Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T00:54:53.944Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:54:58.193Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T00:54:58.196Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:54:58.210Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T00:55:20.525Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=5
+[2026-05-26T00:55:20.539Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T00:55:21.767Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Certo! Vou chamar um atendente para te ajudar.
+
+Aguarde um momento, por favor.
+[2026-05-26T00:55:21.768Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T00:55:21.788Z] [INFO] Comando de teste processado para 558499210586: 5
+[2026-05-26T01:00:25.928Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T01:11:34.696Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T01:12:15.139Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T01:12:15.144Z] [INFO] Banco SQLite fechado.
+[2026-05-26T01:14:56.621Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T01:14:56.622Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T01:14:56.622Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-26T01:14:56.637Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T01:16:05.397Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T01:16:09.122Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-26T01:16:11.967Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T01:16:12.757Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T01:16:12.903Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T01:16:53.338Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T01:16:53.363Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T01:16:54.652Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T01:16:54.656Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:16:58.899Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T01:16:58.902Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:16:58.916Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T01:17:04.503Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=5
+[2026-05-26T01:17:04.513Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T01:17:05.736Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Certo! Vou chamar um atendente para te ajudar.
+
+Aguarde um momento, por favor.
+[2026-05-26T01:17:05.738Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:17:05.755Z] [INFO] Cliente 558499210586 entrou em modo de atendimento humano.
+[2026-05-26T01:17:08.499Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Enquanto voce aguarda, vou te enviar uma mensagem especial de hoje.
+[2026-05-26T01:17:08.502Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:17:09.742Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Vim te entregar o salmo do dia:
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+
+Que essa palavra traga paz para o seu dia.
+[2026-05-26T01:17:09.744Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:17:09.759Z] [INFO] Comando de teste de atendente processado para 558499210586.
+[2026-05-26T01:34:14.717Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T01:34:14.718Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T01:34:14.718Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-26T01:34:14.734Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T01:36:13.339Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T01:36:17.109Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-26T01:36:20.016Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T01:36:20.917Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T01:36:20.969Z] [INFO] WhatsApp carregando 97%: WhatsApp
+[2026-05-26T01:36:20.983Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T01:36:31.579Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T01:36:31.591Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T01:36:32.858Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T01:36:32.862Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:36:37.155Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T01:36:37.167Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:36:37.172Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T01:38:04.510Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T01:38:04.522Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T01:38:05.763Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T01:38:05.768Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:38:10.018Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T01:38:10.021Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:38:12.775Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Enquanto voce aguarda, vou te enviar o salmo do dia:
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+
+Que essa palavra traga paz para o seu dia.
+[2026-05-26T01:38:12.777Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:38:12.792Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T01:41:02.399Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T01:43:58.724Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T01:43:58.726Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T01:43:58.726Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586
+[2026-05-26T01:43:58.747Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T01:44:54.592Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T01:44:58.628Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-26T01:45:01.274Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T01:45:02.023Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T01:45:40.535Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T01:45:42.334Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T01:45:46.053Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T01:45:48.740Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T01:46:15.549Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T01:46:21.726Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T01:46:23.416Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T01:46:26.812Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T01:46:29.438Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T01:46:30.826Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T01:46:51.796Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T01:46:51.809Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T01:46:53.075Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T01:46:53.079Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:46:57.348Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T01:46:57.352Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:47:00.105Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Enquanto voce escolhe as opções do menu, vou te enviar uma mensagem especial de hoje.
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T01:47:00.107Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:47:00.121Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T01:48:38.450Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T01:48:38.461Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T01:48:39.694Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T01:48:39.697Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:48:43.949Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T01:48:43.951Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:48:46.703Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Enquanto voce escolhe as opções do menu, vou te enviar uma mensagem especial de hoje. Que essa palavra traga paz para o seu dia.
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T01:48:46.705Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:48:46.719Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T01:51:55.260Z] [INFO] Configuracao .env atualizada pela interface.
+[2026-05-26T01:52:12.325Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T01:52:16.642Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T01:52:18.909Z] [WARN] Monitor de conexao detectou travamento: inicializacao sem progresso.
+[2026-05-26T01:52:18.910Z] [WARN] Recuperando conexao WhatsApp: monitor de conexao: inicializacao sem progresso
+[2026-05-26T01:52:18.919Z] [ERROR] Erro ao inicializar cliente WhatsApp: TargetCloseError: Protocol error (Runtime.callFunctionOn): Target closed
+    at CallbackRegistry.clear (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\common\CallbackRegistry.js:82:36)
+    at CdpCDPSession.onClosed (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CdpSession.js:115:25)
+    at Connection.onMessage (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Connection.js:149:25)
+    at WebSocket.<anonymous> (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:43:32)
+    at callListener (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\ws\lib\event-target.js:290:14)
+    at WebSocket.onMessage (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\ws\lib\event-target.js:209:9)
+    at WebSocket.emit (node:events:509:28)
+    at Receiver.receiverOnMessage (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\ws\lib\websocket.js:1239:20)
+    at Receiver.emit (node:events:509:28)
+    at Immediate.<anonymous> (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\ws\lib\receiver.js:655:16)
+    at process.processImmediate (node:internal/timers:504:21)
+[2026-05-26T01:52:22.453Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T01:52:25.129Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T01:52:26.381Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T01:52:39.251Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T01:52:39.263Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T01:52:40.518Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T01:52:40.522Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:52:44.787Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T01:52:44.789Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:52:47.543Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Enquanto voce escolhe as opções do menu, vou te enviar uma mensagem especial de hoje. Que essa palavra traga paz para o seu dia.
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T01:52:47.545Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T01:52:47.560Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T01:53:10.703Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Olá
+[2026-05-26T01:53:10.715Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-26T01:53:30.553Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Oi
+[2026-05-26T01:53:30.559Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-26T01:56:08.771Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T01:56:33.563Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T01:56:33.564Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T01:56:33.564Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,5584991285343
+[2026-05-26T01:56:33.579Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T01:56:38.781Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T01:56:42.246Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T01:56:45.173Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T01:56:46.286Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T01:57:03.282Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Olá
+[2026-05-26T01:57:03.299Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-26T01:57:10.464Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Oi
+[2026-05-26T01:57:10.475Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-26T01:57:20.471Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Menu
+[2026-05-26T01:57:20.482Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-26T01:58:18.499Z] [INFO] Configuracao .env atualizada pela interface.
+[2026-05-26T01:58:19.897Z] [INFO] Configuracao .env atualizada pela interface.
+[2026-05-26T01:58:28.198Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T01:58:41.602Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T01:58:41.603Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T01:58:41.603Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343
+[2026-05-26T01:58:41.620Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T01:58:50.025Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T01:58:53.732Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T01:58:56.349Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T01:58:57.175Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T01:59:29.566Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Oi
+[2026-05-26T01:59:29.583Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-26T02:00:35.485Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T02:00:35.489Z] [INFO] Banco SQLite fechado.
+[2026-05-26T02:00:46.093Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T02:01:22.912Z] [INFO] Configuracao .env atualizada pela interface.
+[2026-05-26T02:01:40.554Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:01:44.156Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T02:01:46.796Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:01:47.840Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T02:04:35.776Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T02:04:35.777Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T02:04:35.778Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343,21002775957686
+[2026-05-26T02:04:35.793Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T02:04:40.806Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:04:44.612Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-26T02:04:47.311Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:04:47.347Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T02:05:15.626Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T02:05:17.641Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:05:21.377Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T02:05:24.035Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:06:06.765Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T02:06:08.641Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T02:06:09.097Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T02:06:15.315Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:06:18.993Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T02:06:21.773Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:06:22.846Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T02:06:40.689Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Olá
+[2026-05-26T02:06:41.965Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T02:06:46.233Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T02:06:48.993Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Enquanto voce escolhe as opções do menu, vou te enviar uma mensagem especial de hoje. Que essa palavra traga paz para o seu dia.
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T02:06:56.588Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Oi
+[2026-05-26T02:06:56.601Z] [INFO] Cliente 21002775957686 ignorou o menu. Silenciado ate 2026-05-31.
+[2026-05-26T02:07:08.808Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Olá
+[2026-05-26T02:07:08.819Z] [INFO] Cliente 21002775957686 esta silenciado ate o proximo ciclo do menu.
+[2026-05-26T02:07:22.269Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Menu
+[2026-05-26T02:07:23.559Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T02:07:50.532Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Olá
+[2026-05-26T02:07:50.544Z] [INFO] Cliente 21002775957686 ignorou o menu. Silenciado ate 2026-05-31.
+[2026-05-26T02:08:27.002Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Olá
+[2026-05-26T02:08:27.016Z] [INFO] Mensagem ignorada de 21002775957686: fora da janela ativa do menu.
+[2026-05-26T02:10:44.603Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T02:10:44.608Z] [INFO] Banco SQLite fechado.
+[2026-05-26T02:12:50.936Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T02:12:50.940Z] [INFO] Banco SQLite fechado.
+[2026-05-26T02:13:15.626Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T02:13:15.627Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T02:13:15.628Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343,21002775957686
+[2026-05-26T02:13:15.643Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T02:13:20.742Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:13:24.499Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T02:13:27.213Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:13:28.530Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T02:14:01.149Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T02:14:05.549Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:14:09.066Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T02:14:11.730Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:14:13.171Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T02:14:29.795Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Olá
+[2026-05-26T02:14:31.094Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T02:14:35.382Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T02:14:38.137Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Enquanto voce escolhe as opções do menu, vou te enviar uma mensagem especial de hoje. Que essa palavra traga paz para o seu dia.
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T02:14:38.157Z] [INFO] Contato de teste 21002775957686 recebeu menu inicial sem aplicar silencio.
+[2026-05-26T02:14:43.623Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Olá
+[2026-05-26T02:14:44.875Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T02:14:49.156Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T02:14:51.910Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Enquanto voce escolhe as opções do menu, vou te enviar uma mensagem especial de hoje. Que essa palavra traga paz para o seu dia.
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T02:14:51.927Z] [INFO] Contato de teste 21002775957686 recebeu menu inicial sem aplicar silencio.
+[2026-05-26T02:15:08.715Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Olá
+[2026-05-26T02:15:09.965Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T02:15:14.244Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T02:15:17.011Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Enquanto voce escolhe as opções do menu, vou te enviar uma mensagem especial de hoje. Que essa palavra traga paz para o seu dia.
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T02:15:17.029Z] [INFO] Contato de teste 21002775957686 recebeu menu inicial sem aplicar silencio.
+[2026-05-26T02:15:30.294Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=3
+[2026-05-26T02:15:31.562Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Para fazer seu agendamento on-line, acesse:
+
+https://maapp.com.br/clinicarb
+
+Pelo link voce podera escolher o servico, a data e o horario disponiveis diretamente no app MinhaAgenda.
+[2026-05-26T02:17:06.395Z] [WARN] Campanha iniciada para 2 contato(s). Alvo=lista_salva
+[2026-05-26T02:17:07.387Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=teste de lista
+[2026-05-26T02:17:07.400Z] [INFO] Campanha: enviada para 21002775957686.
+[2026-05-26T02:17:24.969Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=teste de lista
+[2026-05-26T02:17:24.972Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:17:24.989Z] [INFO] Campanha: enviada para 65700215402521.
+[2026-05-26T02:17:24.990Z] [WARN] Campanha finalizada. Enviados=2 Falhas=0 Ignorados=0
+[2026-05-26T02:19:42.961Z] [WARN] Campanha iniciada para 3 contato(s). Alvo=teste
+[2026-05-26T02:19:43.226Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Vou te enviar o salmo do dia:
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+
+Que essa palavra traga paz para o seu dia.
+[2026-05-26T02:19:43.232Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:19:43.244Z] [INFO] Campanha: enviada para 65700215402521.
+[2026-05-26T02:20:00.297Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Vou te enviar o salmo do dia:
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+
+Que essa palavra traga paz para o seu dia.
+[2026-05-26T02:20:00.307Z] [INFO] Campanha: enviada para 21002775957686.
+[2026-05-26T02:20:16.792Z] [WARN] Campanha: numero ignorado sem WhatsApp ativo: 21002775957686
+[2026-05-26T02:20:16.797Z] [WARN] Campanha finalizada. Enviados=2 Falhas=0 Ignorados=1
+[2026-05-26T02:21:31.616Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T02:21:31.635Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T02:21:32.877Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! Aqui e o bot da Renaly Basilio Estetica.
+
+Nosso pessoal esta um pouco ocupado agora, mas assim que possivel alguem chama voce para atender.
+
+Enquanto isso, vou te enviar nosso menu de opcoes.
+[2026-05-26T02:21:32.880Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:21:37.131Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T02:21:37.137Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:21:39.880Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Enquanto voce escolhe as opções do menu, vou te enviar uma mensagem especial de hoje. Que essa palavra traga paz para o seu dia.
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T02:21:39.882Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:21:39.896Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T02:22:16.748Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=menu
+[2026-05-26T02:22:16.760Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T02:22:17.988Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Robo - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica.
+
+Como posso te ajudar hoje?
+
+Digite uma das opcoes abaixo:
+
+1 - Catalogo de servicos
+2 - Endereco
+3 - Fazer agendamento on-line
+4 - Horario de funcionamento
+5 - Falar com um atendente
+6 - Salmo do dia
+
+Digite *menu* a qualquer momento para ver essas opcoes novamente.
+[2026-05-26T02:22:17.990Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:22:18.004Z] [INFO] Comando de teste processado para 558499210586: menu
+[2026-05-26T02:28:15.664Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T02:28:15.665Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T02:28:15.665Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343,21002775957686
+[2026-05-26T02:28:15.681Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T02:28:20.883Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:28:25.527Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T02:28:28.275Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:28:29.326Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T02:36:14.584Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T02:36:14.585Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T02:36:14.585Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343,21002775957686
+[2026-05-26T02:36:14.601Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T02:36:19.790Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:36:23.386Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T02:36:26.649Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:37:18.296Z] [WARN] Recuperando conexao WhatsApp: recuperacao solicitada pela interface
+[2026-05-26T02:37:22.216Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T02:37:25.151Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:37:26.282Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T02:39:32.875Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T02:48:29.558Z] [INFO] Backup criado em C:\Users\thieg\Documents\BOT\bot-renaly\backups\2026-05-26T02-48-29-532Z
+[2026-05-26T02:48:33.861Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:48:34.840Z] [WARN] Monitor de conexao detectou travamento: inicializacao sem progresso.
+[2026-05-26T02:48:34.841Z] [WARN] Recuperando conexao WhatsApp: monitor de conexao: inicializacao sem progresso
+[2026-05-26T02:48:34.962Z] [ERROR] Erro ao inicializar cliente WhatsApp: Error: Navigating frame was detached
+    at <instance_members_initializer> (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:36:14)
+    at new LifecycleWatcher (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\LifecycleWatcher.js:40:16)
+    at CdpFrame.goto (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Frame.js:149:29)
+    at CdpFrame.<anonymous> (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\util\decorators.js:109:27)
+    at CdpPage.goto (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:580:43)
+    at Client.initialize (C:\Users\thieg\Documents\BOT\bot-renaly\node_modules\whatsapp-web.js\src\Client.js:487:20)
+    at async initializeWhatsAppClient (C:\Users\thieg\Documents\BOT\bot-renaly\src\index.js:370:5)
+[2026-05-26T02:48:38.645Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-26T02:48:41.313Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:48:41.476Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T02:48:42.267Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T02:48:50.434Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T02:48:50.450Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T02:48:51.720Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! 👋😊
+Aqui é o assistente virtual da Renaly Basilio Estetica.
+
+No momento, nossa equipe está um pouquinho ocupada ⏳, mas fique tranquilo(a): assim que possível, alguém vai chamar você para dar continuidade ao atendimento. 🤝
+
+Enquanto isso, vou te enviar nosso menu de opções para agilizar seu atendimento. 📋✨
+
+[2026-05-26T02:48:51.734Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:48:55.985Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖Robô - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica ✨.
+
+É um prazer ter você por aqui! 💖
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo: 👇
+
+1 - Catálogo de serviços 💆‍♀️
+2 - Endereço 📍
+3 - Fazer agendamento on-line 📅
+4 - Horário de funcionamento ⏰
+5 - Falar com um atendente 👩‍💼
+6 - Salmo do dia 🙏
+
+Digite menu a qualquer momento para ver essas opções novamente. 🔄
+[2026-05-26T02:48:55.987Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:48:58.753Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Enquanto voce escolhe as opções do menu, vou te enviar uma mensagem especial de hoje. Que essa palavra traga paz para o seu dia.
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T02:48:58.755Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:48:58.771Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T02:52:36.394Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=6
+[2026-05-26T02:52:36.408Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T02:52:37.648Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Salmo do dia
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T02:52:37.651Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:52:37.667Z] [INFO] Comando de teste processado para 558499210586: 6
+[2026-05-26T02:52:50.012Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T02:52:53.838Z] [INFO] Backup criado em C:\Users\thieg\Documents\BOT\bot-renaly\backups\2026-05-26T02-52-53-814Z
+[2026-05-26T02:52:58.112Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T02:53:02.098Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T02:53:04.789Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T02:53:06.075Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T02:53:14.399Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T02:53:14.411Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T02:53:15.663Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! 👋😊
+Aqui é o assistente virtual da Renaly Basilio Estetica.
+
+No momento, nossa equipe está um pouquinho ocupada ⏳, mas fique tranquilo(a): assim que possível, alguém vai chamar você para dar continuidade ao atendimento. 🤝
+
+Enquanto isso, vou te enviar nosso menu de opções para agilizar seu atendimento. 📋✨
+
+[2026-05-26T02:53:15.668Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:53:19.946Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖Robô - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica ✨.
+
+É um prazer ter você por aqui! 💖
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo: 👇
+
+1 - Catálogo de serviços 💆‍♀️
+2 - Endereço 📍
+3 - Fazer agendamento on-line 📅
+4 - Horário de funcionamento ⏰
+5 - Falar com um atendente 👩‍💼
+6 - Salmo do dia 🙏
+
+Digite menu a qualquer momento para ver essas opções novamente. 🔄
+[2026-05-26T02:53:19.949Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:53:22.708Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🙏✨ Enquanto você escolhe uma das opções do menu, vou te enviar uma mensagem especial de hoje.
+
+Que essa palavra toque seu coração e traga paz, fé e esperança para o seu dia. 🌿💖
+
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T02:53:22.711Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:53:22.727Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T02:56:07.593Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T02:56:07.608Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T02:56:08.836Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Boa noite! 👋😊
+Aqui é o 🤖robô  da Renaly Basilio Estetica.
+
+No momento, nossa equipe está um pouquinho ocupada ⏳, mas fique tranquilo(a): assim que possível, alguém vai chamar você para dar continuidade ao atendimento. 🤝
+
+Enquanto isso, vou te enviar nosso menu de opções para agilizar seu atendimento. 📋✨
+
+[2026-05-26T02:56:08.840Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:56:13.105Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖Robô - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica ✨.
+
+É um prazer ter você por aqui! 💖
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo: 👇
+
+1 - 1️⃣Catálogo de serviços 💆‍♀️
+2 - 2️⃣Endereço 📍
+3 - 3️⃣Fazer agendamento on-line 📅
+4 - 4️⃣Horário de funcionamento ⏰
+5 - 5️⃣Falar com um atendente 👩‍💼
+6 - 6️⃣Salmo do dia 🙏
+
+Digite menu a qualquer momento para ver essas opções novamente. 🔄
+[2026-05-26T02:56:13.110Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:56:15.886Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🙏✨ Enquanto você escolhe uma das opções do menu, vou te enviar uma mensagem especial de hoje.
+
+Que essa palavra toque seu coração e traga paz, fé e esperança para o seu dia. 🌿💖
+
+
+Salmo 34
+Que a gratidao abra espaco para perceber cuidado, livramento e bondade.
+[2026-05-26T02:56:15.889Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T02:56:15.906Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T02:56:41.851Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T12:15:46.008Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T12:15:46.009Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T12:15:46.010Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343,21002775957686
+[2026-05-26T12:15:46.025Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T12:16:09.272Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T12:16:14.723Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-26T12:16:18.387Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T12:16:20.200Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T12:16:20.757Z] [INFO] WhatsApp carregando 11%: WhatsApp
+[2026-05-26T12:16:21.783Z] [INFO] WhatsApp carregando 32%: WhatsApp
+[2026-05-26T12:16:22.846Z] [INFO] WhatsApp carregando 43%: WhatsApp
+[2026-05-26T12:16:23.865Z] [INFO] WhatsApp carregando 55%: WhatsApp
+[2026-05-26T12:16:23.968Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Amor
+[2026-05-26T12:16:23.985Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Tô nervosa
+[2026-05-26T12:16:24.028Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Fique não
+[2026-05-26T12:16:24.044Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Vc sabe de todo o conteúdo
+[2026-05-26T12:16:24.063Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Vc é foda
+[2026-05-26T12:16:24.080Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Vai se sair muito bem
+[2026-05-26T12:16:24.103Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Tome um pouco d’água
+[2026-05-26T12:16:24.851Z] [INFO] WhatsApp carregando 81%: WhatsApp
+[2026-05-26T12:16:24.966Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Quando terminar me avise
+[2026-05-26T12:16:25.183Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Tá bem amor
+[2026-05-26T12:16:25.264Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Para continuar, digite uma das opcoes do menu ou digite menu para ver novamente.
+[2026-05-26T12:16:25.274Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Para continuar, digite uma das opcoes do menu ou digite menu para ver novamente.
+[2026-05-26T12:16:25.322Z] [INFO] Contato de teste 21002775957686 recebeu resposta generica fora da janela do menu.
+[2026-05-26T12:16:25.379Z] [INFO] Contato de teste 21002775957686 recebeu resposta generica fora da janela do menu.
+[2026-05-26T12:16:25.516Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=558499210586-1586191660@g.us remote=558499210586-1586191660@g.us body=Fies BB
+[2026-05-26T12:16:25.521Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:16:25.860Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-26T12:16:26.296Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T12:16:26.641Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=21002775957686@lid remote=21002775957686@lid body=Para continuar, digite uma das opcoes do menu ou digite menu para ver novamente.
+[2026-05-26T12:16:27.371Z] [INFO] Contato de teste 21002775957686 recebeu resposta generica fora da janela do menu.
+[2026-05-26T12:16:43.210Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=19726868738236@lid remote=19726868738236@lid body=Bom dia
+[2026-05-26T12:16:43.232Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:16:55.920Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=19726868738236@lid remote=19726868738236@lid body=me manda a publicação
+[2026-05-26T12:16:55.930Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:19:43.562Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=87887949373557@lid remote=87887949373557@lid body=Bom dia
+[2026-05-26T12:19:43.576Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:19:57.669Z] [INFO] Evento message: fromMe=false from=87887949373557@lid to=558499210586@c.us body=Bom dia, Thiego
+[2026-05-26T12:19:58.084Z] [WARN] Mensagem ignorada de 87887949373557: telefone fora da lista permitida.
+[2026-05-26T12:21:10.730Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T12:21:10.731Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T12:21:10.732Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343,21002775957686
+[2026-05-26T12:21:10.750Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T12:24:24.333Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T12:24:27.933Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-26T12:24:31.401Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T12:24:32.252Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T12:24:32.357Z] [INFO] WhatsApp carregando 86%: WhatsApp
+[2026-05-26T12:24:32.933Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T12:24:40.836Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=Olá
+[2026-05-26T12:24:42.108Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Bom dia! 👋😊
+Aqui é o 🤖Robô  da Renaly Basilio Estetica.
+
+No momento, nossa equipe está um pouquinho ocupada ⏳, mas fique tranquilo(a): assim que possível, alguém vai chamar você para dar continuidade ao atendimento. 🤝
+
+Enquanto isso, vou te enviar nosso menu de opções para agilizar seu atendimento. 📋✨
+
+[2026-05-26T12:24:42.112Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:24:46.396Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖Robô - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica ✨.
+
+É um prazer ter você por aqui! 💖
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo: 👇
+
+1 - 1️⃣Catálogo de serviços 💆‍♀️
+2 - 2️⃣Endereço 📍
+3 - 3️⃣Fazer agendamento on-line 📅
+4 - 4️⃣Horário de funcionamento ⏰
+5 - 5️⃣Falar com um atendente 👩‍💼
+6 - 6️⃣Salmo do dia 🙏
+
+Digite menu a qualquer momento para ver essas opções novamente. 🔄
+[2026-05-26T12:24:46.400Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:24:49.163Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🙏✨ Enquanto você escolhe uma das opções do menu, vou te enviar uma mensagem especial de hoje.
+
+Que essa palavra toque seu coração e traga paz, fé e esperança para o seu dia. 🌿💖
+
+
+Salmo 37
+Que voce entregue suas preocupacoes a Deus e caminhe com paciencia e confianca.
+[2026-05-26T12:24:49.165Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:24:49.181Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T12:26:36.646Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=6
+[2026-05-26T12:26:37.903Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Bom dia! 🙏✨
+Aqui é o 🤖bot da *Renaly Basilio Estetica*.
+
+Preparei o *Salmo do Dia* para você: 📖💖
+
+
+Salmo 37
+Que voce entregue suas preocupacoes a Deus e caminhe com paciencia e confianca.
+
+Que essa mensagem traga paz, fé e esperança para o seu dia. 🌿✨
+[2026-05-26T12:26:37.906Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:26:37.928Z] [INFO] Comando de teste processado para 558499210586: 6
+[2026-05-26T12:30:29.099Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=aviso de INEXIGIBILIDADE de licitação - aviso de INEXIGIBILIDADE de licitação - DOU - Imprensa Nacional.pdf
+[2026-05-26T12:30:29.114Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:30:34.236Z] [INFO] Evento message: fromMe=false from=273357538902271@lid to=558499210586@c.us body=*Thiago Dantas:*
+Bom dia, Thiego. Tudo bem?
+Qual seria sua duvida sobre o site?
+[2026-05-26T12:30:34.485Z] [WARN] Mensagem ignorada de 273357538902271: telefone fora da lista permitida.
+[2026-05-26T12:31:13.354Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=273357538902271@lid remote=273357538902271@lid body=sobre umas imagem que o pessoal me perguntou como colocariam elas
+[2026-05-26T12:31:13.367Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:31:42.422Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=extrato abipem.pdf
+[2026-05-26T12:31:42.436Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:32:18.890Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Bom dia
+[2026-05-26T12:32:18.902Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:32:42.209Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=19726868738236@lid remote=19726868738236@lid body=as duas sao de Iuri?
+[2026-05-26T12:32:42.224Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:33:12.585Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T12:33:12.586Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T12:33:12.586Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343,21002775957686
+[2026-05-26T12:33:12.605Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T12:33:19.614Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T12:33:23.478Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-26T12:33:26.181Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T12:33:26.286Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T12:33:26.971Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T12:35:08.414Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=extrato inexigibilidade 002.2026.pdf
+[2026-05-26T12:35:08.431Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:35:27.422Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Acho que salvei duas vezes
+[2026-05-26T12:35:27.433Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:35:46.709Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Pensando que já era o da abipem
+[2026-05-26T12:35:46.721Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:36:14.514Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Tá certo agora ?
+[2026-05-26T12:36:14.523Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:37:17.733Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Iuri não tinha certidão na data do dia 20
+[2026-05-26T12:37:17.748Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:37:24.974Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Certidão municipal
+[2026-05-26T12:37:24.990Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:37:30.112Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Ele disse que tinha
+[2026-05-26T12:37:30.125Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:37:44.481Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Mas qdo mandou estava vencida dia 17
+[2026-05-26T12:37:44.493Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:37:51.061Z] [INFO] Evento message: fromMe=false from=273357538902271@lid to=558499210586@c.us body=*Thiago Dantas:*
+Estão precisando colocar novas imagens?
+[2026-05-26T12:37:51.333Z] [WARN] Mensagem ignorada de 273357538902271: telefone fora da lista permitida.
+[2026-05-26T12:38:03.830Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=certidao municipal.pdf
+[2026-05-26T12:38:03.848Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:38:13.638Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=120363426293658313@g.us remote=120363426293658313@g.us body=Em nome de Jesus 🙏
+[2026-05-26T12:38:13.651Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:38:13.652Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:38:19.155Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=certidao municipal.pdf
+[2026-05-26T12:38:19.170Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:38:25.631Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Daí ontem ele mandou essa
+[2026-05-26T12:38:25.643Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:38:43.463Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=E se vc procurar ver no site de passa e fica
+[2026-05-26T12:38:43.475Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:38:47.093Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Lá tem o histórico
+[2026-05-26T12:38:47.104Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:38:51.637Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Das certidões dele
+[2026-05-26T12:38:51.651Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:39:12.675Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=E não tem nenhuma que cubra a data para dia 20
+[2026-05-26T12:39:12.688Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:39:19.573Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Por isso saiu com data de ontem
+[2026-05-26T12:39:19.584Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:39:32.641Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Entendeu ?
+[2026-05-26T12:39:32.651Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:39:54.015Z] [INFO] Evento message: fromMe=false from=19726868738236@lid to=558499210586@c.us body=Vc vai ver o quarto ?
+[2026-05-26T12:39:54.028Z] [WARN] Mensagem ignorada de 19726868738236: telefone fora da lista permitida.
+[2026-05-26T12:40:03.374Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=19726868738236@lid remote=19726868738236@lid body=Mais ou menos
+[2026-05-26T12:40:03.388Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:40:14.391Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=19726868738236@lid remote=19726868738236@lid body=Depois vc me diz, quando vc tive aqui na Prefeitura
+[2026-05-26T12:40:14.404Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:40:29.550Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T12:40:29.560Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:40:30.818Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Bom dia! 👋😊
+Aqui é o 🤖Robô  da Renaly Basilio Estetica.
+
+No momento, nossa equipe está um pouquinho ocupada ⏳, mas fique tranquilo(a): assim que possível, alguém vai chamar você para dar continuidade ao atendimento. 🤝
+
+Enquanto isso, vou te enviar nosso menu de opções para agilizar seu atendimento. 📋✨
+
+[2026-05-26T12:40:30.823Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:40:35.113Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖Robô - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica ✨.
+
+É um prazer ter você por aqui! 💖
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo: 👇
+
+1 - 1️⃣Catálogo de serviços 💆‍♀️
+2 - 2️⃣Endereço 📍
+3 - 3️⃣Fazer agendamento on-line 📅
+4 - 4️⃣Horário de funcionamento ⏰
+5 - 5️⃣Falar com um atendente 👩‍💼
+6 - 6️⃣Salmo do dia 🙏
+
+Digite menu a qualquer momento para ver essas opções novamente. 🔄
+[2026-05-26T12:40:35.115Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:40:37.885Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🙏✨ Enquanto você escolhe uma das opções do menu, vou te enviar uma mensagem especial de hoje.
+
+Que essa palavra toque seu coração e traga paz, fé e esperança para o seu dia. 🌿💖
+
+
+Salmo 37
+Que voce entregue suas preocupacoes a Deus e caminhe com paciencia e confianca.
+[2026-05-26T12:40:37.889Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:40:37.907Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T12:40:53.247Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-26T12:41:07.697Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T12:41:07.698Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T12:41:07.698Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343,21002775957686
+[2026-05-26T12:41:07.715Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T12:41:15.379Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T12:41:19.032Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-26T12:41:21.786Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T12:41:22.497Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T12:41:22.586Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-26T12:41:45.012Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=ola
+[2026-05-26T12:41:45.038Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:41:46.317Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=Bom dia! 👋😊
+Aqui é o 🤖Robô  da Renaly Basilio Estetica.
+
+No momento, nossa equipe está um pouquinho ocupada ⏳, mas fique tranquilo(a): assim que possível, alguém vai chamar você para dar continuidade ao atendimento. 🤝
+
+Enquanto isso, vou te enviar nosso menu de opções para agilizar seu atendimento. 📋✨
+
+[2026-05-26T12:41:46.320Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:41:50.595Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🤖Robô - Ola! Seja bem-vindo(a) a Renaly Basilio Estetica ✨.
+
+É um prazer ter você por aqui! 💖
+Como posso te ajudar hoje?
+
+Digite uma das opções abaixo: 👇
+
+1 - 1️⃣Catálogo de serviços 💆‍♀️
+2 - 2️⃣Endereço 📍
+3 - 3️⃣Fazer agendamento on-line 📅
+4 - 4️⃣Horário de funcionamento ⏰
+5 - 5️⃣Falar com um atendente 👩‍💼
+6 - 6️⃣Salmo do dia 🙏
+
+Digite menu a qualquer momento para ver essas opções novamente. 🔄
+[2026-05-26T12:41:50.598Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:41:53.345Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🙏✨ Enquanto você escolhe uma das opções do menu, vou te enviar uma mensagem especial de hoje.
+
+Que essa palavra toque seu coração e traga paz, fé e esperança para o seu dia. 🌿💖
+
+
+Salmo 37
+Que voce entregue suas preocupacoes a Deus e caminhe com paciencia e confianca.
+[2026-05-26T12:41:53.347Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:41:53.363Z] [INFO] Comando de teste /ola processado com pausa para 558499210586.
+[2026-05-26T12:41:59.476Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=65700215402521@lid remote=65700215402521@lid body=5
+[2026-05-26T12:41:59.488Z] [WARN] Nao foi possivel obter dados do contato: getAlternateUserWid - Invalid get call using deviceWid
+[2026-05-26T12:42:00.718Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=👩‍💼 *Certo! Vou chamar um atendente para te ajudar.*
+
+Nossa equipe vai dar continuidade ao seu atendimento assim que possível. 💬✨
+
+Aguarde um momento, por favor. ⏳💖
+
+Digite *menu* para retornar às opções. 🔄
+
+[2026-05-26T12:42:00.720Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:42:00.739Z] [INFO] Cliente 558499210586 entrou em modo de atendimento humano.
+[2026-05-26T12:42:03.245Z] [INFO] Extra ao chamar atendente para 558499210586: Palavra Biblica de Espera.
+[2026-05-26T12:42:04.474Z] [INFO] Evento message_create: fromMe=true from=65700215402521@lid to=65700215402521@lid remote=65700215402521@lid body=🙏✨ Enquanto você aguarda, vou te enviar uma mensagem especial de hoje.
+
+Que essa palavra traga paz, fé e tranquilidade para o seu coração. 🌿💖
+
+Joao 14:27
+Que a paz de Cristo abrace seu coracao e afaste a ansiedade.
+[2026-05-26T12:42:04.482Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
+[2026-05-26T12:42:04.503Z] [INFO] Comando de teste de atendente processado para 558499210586.
+[2026-05-26T12:59:00.736Z] [INFO] Banco SQLite inicializado em C:\Users\thieg\Documents\BOT\bot-renaly\data\banco.sqlite
+[2026-05-26T12:59:00.738Z] [INFO] Iniciando bot da Renaly Basilio Estetica...
+[2026-05-26T12:59:00.738Z] [INFO] Seguranca: BOT_ATIVO=true MODO_TESTE=true APENAS_NUMEROS_PERMITIDOS=true TELEFONES_PERMITIDOS=558499210586,558491285343,21002775957686
+[2026-05-26T12:59:00.755Z] [INFO] Interface local disponivel em http://localhost:3333
+[2026-05-26T12:59:07.760Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-26T12:59:11.391Z] [INFO] WhatsApp carregando 100%: WhatsApp
+[2026-05-26T12:59:14.599Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-26T12:59:15.848Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-26T13:01:36.204Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface

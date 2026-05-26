@@ -42,6 +42,43 @@ function splitTelefoneList(value) {
     .filter(Boolean);
 }
 
+function getTelefoneVariacoes(telefone) {
+  const numero = normalizeTelefone(telefone);
+  const variacoes = new Set();
+
+  function add(value) {
+    const normalizado = normalizeTelefone(value);
+
+    if (normalizado.length >= 10) {
+      variacoes.add(normalizado);
+    }
+  }
+
+  add(numero);
+
+  if (numero.length === 13 && numero.startsWith('55')) {
+    add(numero.slice(0, 4) + numero.slice(5));
+  }
+
+  if (numero.length === 12 && numero.startsWith('55')) {
+    add(numero.slice(0, 4) + '9' + numero.slice(4));
+  }
+
+  if (numero.length === 11 && !numero.startsWith('55')) {
+    add('55' + numero);
+    add(numero.slice(0, 2) + numero.slice(3));
+    add('55' + numero.slice(0, 2) + numero.slice(3));
+  }
+
+  if (numero.length === 10 && !numero.startsWith('55')) {
+    add('55' + numero);
+    add(numero.slice(0, 2) + '9' + numero.slice(2));
+    add('55' + numero.slice(0, 2) + '9' + numero.slice(2));
+  }
+
+  return Array.from(variacoes);
+}
+
 const defaultCatalog =
   'Limpeza de pele; Design de sobrancelhas; Depilacao; Massagem; Outros procedimentos';
 
@@ -109,7 +146,12 @@ function isTelefonePermitido(telefone) {
 }
 
 function isTelefoneNaListaPermitidos(telefone) {
-  return configState.telefonesPermitidos.includes(normalizeTelefone(telefone));
+  const telefoneVariacoes = getTelefoneVariacoes(telefone);
+
+  return configState.telefonesPermitidos.some((permitido) => {
+    const permitidoVariacoes = getTelefoneVariacoes(permitido);
+    return telefoneVariacoes.some((telefoneVariacao) => permitidoVariacoes.includes(telefoneVariacao));
+  });
 }
 
 reloadConfig();

@@ -1546,3 +1546,30 @@ Enquanto isso, se quiser, voce pode digitar 6 para jogar um quiz rapido.
 [2026-05-23T12:43:05.703Z] [WARN] Comando de teste ignorado para 65700215402521: telefone fora da lista permitida.
 [2026-05-23T12:43:05.720Z] [INFO] Comando de teste processado para 558499210586: 5
 [2026-05-23T12:44:36.918Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-23T13:33:41.176Z] [INFO] Iniciando cliente WhatsApp: inicio solicitado pela interface
+[2026-05-23T13:33:45.296Z] [INFO] WhatsApp carregando 0%: WhatsApp
+[2026-05-23T13:33:48.095Z] [INFO] WhatsApp autenticado com sucesso.
+[2026-05-23T13:33:49.049Z] [INFO] WhatsApp carregando 8%: WhatsApp
+[2026-05-23T13:33:49.138Z] [INFO] Bot conectado e pronto para atender.
+[2026-05-23T13:33:49.806Z] [INFO] Evento message: fromMe=false from=34270030602465@lid to=65700215402521:73@lid body=
+[2026-05-23T13:33:49.813Z] [WARN] Mensagem ignorada de 34270030602465: telefone fora da lista permitida.
+[2026-05-23T13:33:49.834Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=34270030602465@lid remote=34270030602465@lid body=Quero reivindicar o bônus da sorte de hoje!
+Código de Resgate: 
+[H+tV1kMbK2Bzsx1QTT9S1Ixy3RBXpaGVlXA2uFNV1SI]
+[2026-05-23T13:33:49.978Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Amor, você sabe onde estão as folhas peso 40?
+[2026-05-23T13:33:49.984Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-23T13:33:49.994Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Não sei, mas depois dessa faxina a gente acha
+[2026-05-23T13:33:50.092Z] [INFO] WhatsApp carregando 38%: WhatsApp
+[2026-05-23T13:33:50.097Z] [INFO] Evento message: fromMe=false from=34270030602465@lid to=65700215402521:73@lid body=
+[2026-05-23T13:33:50.116Z] [INFO] Evento message_create: fromMe=true from=558499210586@c.us to=21002775957686@lid remote=21002775957686@lid body=Vamos mexer em tudo
+[2026-05-23T13:33:50.130Z] [INFO] Evento message: fromMe=false from=21002775957686@lid to=558499210586@c.us body=Tá bem
+[2026-05-23T13:33:50.135Z] [WARN] Mensagem ignorada de 21002775957686: telefone fora da lista permitida.
+[2026-05-23T13:33:50.441Z] [WARN] Mensagem ignorada de 34270030602465: telefone fora da lista permitida.
+[2026-05-23T13:33:50.972Z] [INFO] Evento message: fromMe=false from=43314896199865@lid to=558499210586@c.us body=
+[2026-05-23T13:33:51.013Z] [INFO] Evento message: fromMe=false from=34270030602465@lid to=558499210586@c.us body=
+[2026-05-23T13:33:51.045Z] [WARN] Mensagem ignorada de 34270030602465: telefone fora da lista permitida.
+[2026-05-23T13:33:51.092Z] [INFO] WhatsApp carregando 95%: WhatsApp
+[2026-05-23T13:33:51.237Z] [WARN] Mensagem ignorada de 43314896199865: telefone fora da lista permitida.
+[2026-05-23T13:33:51.313Z] [INFO] WhatsApp carregando 99%: WhatsApp
+[2026-05-23T13:36:20.931Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface
+[2026-05-23T13:40:08.957Z] [WARN] Parando cliente WhatsApp: parada solicitada pela interface

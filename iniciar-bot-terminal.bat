@@ -37,6 +37,10 @@ if not exist "node_modules\" (
   echo.
 )
 
+echo Verificando se existe uma instancia antiga aberta...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Process | Where-Object { $_.Name -eq 'node.exe' -and ($_.CommandLine -like '*src/index.js*' -or $_.CommandLine -like '*bot-renaly*') } | ForEach-Object { Write-Host ('Encerrando processo antigo PID ' + $_.ProcessId); Stop-Process -Id $_.ProcessId -Force }"
+echo.
+
 start "" cmd /c "timeout /t 4 >nul && start http://localhost:3333"
 
 call npm.cmd start

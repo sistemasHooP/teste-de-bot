@@ -17,12 +17,46 @@ const state = {
   lastDisconnectedReason: null,
   lastError: null,
   lastRestartAt: null,
+  lastHealthCheckAt: null,
+  lastHealthState: null,
   loadingPercent: null,
-  loadingMessage: null
+  loadingMessage: null,
+  lastLoadingAt: null,
+  campanha: {
+    ativa: false,
+    cancelando: false,
+    status: 'parada',
+    id: null,
+    alvo: null,
+    total: 0,
+    enviados: 0,
+    falhas: 0,
+    ignorados: 0,
+    atual: 0,
+    numeroAtual: null,
+    iniciadaEm: null,
+    finalizadaEm: null,
+    ultimaAtualizacao: null,
+    mensagem: 'Nenhuma campanha em andamento.',
+    erro: null,
+    proximosSegundos: null
+  }
 };
 
 function updateStatus(patch) {
   Object.assign(state, patch);
+}
+
+function updateCampaignStatus(patch) {
+  Object.assign(state.campanha, patch, {
+    ultimaAtualizacao: new Date().toISOString()
+  });
+}
+
+function getCampaignStatus() {
+  return {
+    ...state.campanha
+  };
 }
 
 function getStatus() {
@@ -34,5 +68,7 @@ function getStatus() {
 
 module.exports = {
   updateStatus,
-  getStatus
+  getStatus,
+  updateCampaignStatus,
+  getCampaignStatus
 };

@@ -24,15 +24,6 @@ function createTables(database) {
       mensagem TEXT NOT NULL,
       criado_em TEXT
     );
-
-    CREATE TABLE IF NOT EXISTS quiz_estado (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      telefone TEXT UNIQUE NOT NULL,
-      pergunta_atual INTEGER DEFAULT 0,
-      pontos INTEGER DEFAULT 0,
-      ativo INTEGER DEFAULT 0,
-      atualizado_em TEXT
-    );
   `);
 }
 

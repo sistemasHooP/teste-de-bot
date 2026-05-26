@@ -1,7 +1,5 @@
 const readline = require('readline');
 const { initDatabase, closeDatabase } = require('./database');
-const quiz = require('./quiz');
-const quizRepository = require('./repositories/quizRepository');
 const teste = require('./teste');
 const { normalizeText } = require('./utils');
 
@@ -28,12 +26,6 @@ function processarEntrada(texto) {
 
   if (!normalizado) {
     return '';
-  }
-
-  const estadoQuiz = quizRepository.obterOuCriar(telefoneTeste);
-
-  if (estadoQuiz.ativo && ['a', 'b'].includes(normalizado)) {
-    return quiz.processarResposta(telefoneTeste, texto).mensagem;
   }
 
   return teste.obterRespostaTeste(telefoneTeste, texto) || 'Comando nao reconhecido. Digite /teste.';

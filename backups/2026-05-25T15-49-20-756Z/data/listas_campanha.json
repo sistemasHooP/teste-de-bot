@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "Lista Teste 1",
+    "dataCriacao": "2026-05-25T13:08:15.859Z",
+    "contatos": [
+      {
+        "nome": "Renaly Novo",
+        "telefone": "8491285343",
+        "whatsappProvavel": "8491285343",
+        "origem": "csv"
+      },
+      {
+        "nome": "Thiego",
+        "telefone": "84999210586",
+        "whatsappProvavel": "8499210586",
+        "origem": "csv"
+      }
+    ]
+  },
+  {
+    "nome": "thiego lista",
+    "dataCriacao": "2026-05-25T13:23:59.516Z",
+    "contatos": [
+      {
+        "nome": "Thiego",
+        "telefone": "84999210586",
+        "whatsappProvavel": "8499210586",
+        "origem": "csv"
+      }
+    ]
+  }
+]

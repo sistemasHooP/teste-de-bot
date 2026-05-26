@@ -32,8 +32,8 @@
     "mensagemAutomaticaAposMenuTipo": "salmo",
     "mensagemAutomaticaAposMenuAtrasoMs": 1500,
     "mensagemAutomaticaEsperaAtiva": true,
-    "mensagemAutomaticaEsperaTexto": "🙏✨ Enquanto você aguarda, vou te enviar uma mensagem especial de hoje.\n\nQue essa palavra traga paz, fé e tranquilidade para o seu coração. 🌿💖",
-    "mensagemAutomaticaEsperaTipo": "biblia",
+    "mensagemAutomaticaEsperaTexto": "Enquanto voce aguarda, vou te enviar uma mensagem especial de hoje.",
+    "mensagemAutomaticaEsperaTipo": "salmo",
     "mensagemAutomaticaEsperaAtrasoMs": 2500
   },
   "menu": {
@@ -41,7 +41,7 @@
     "subtitulo": "É um prazer ter você por aqui! 💖\nComo posso te ajudar hoje?",
     "instrucao": "Digite uma das opções abaixo: 👇",
     "rodape": "Digite menu a qualquer momento para ver essas opções novamente. 🔄",
-    "mensagemRecepcaoAntesMenu": "{saudacao}! 👋😊\nAqui é o 🤖Robô  da {empresa}.\n\nNo momento, nossa equipe está um pouquinho ocupada ⏳, mas fique tranquilo(a): assim que possível, alguém vai chamar você para dar continuidade ao atendimento. 🤝\n\nEnquanto isso, vou te enviar nosso menu de opções para agilizar seu atendimento. 📋✨\n",
+    "mensagemRecepcaoAntesMenu": "{saudacao}! 👋😊\nAqui é o assistente virtual da {empresa}.\n\nNo momento, nossa equipe está um pouquinho ocupada ⏳, mas fique tranquilo(a): assim que possível, alguém vai chamar você para dar continuidade ao atendimento. 🤝\n\nEnquanto isso, vou te enviar nosso menu de opções para agilizar seu atendimento. 📋✨\n",
     "palavrasChave": [
       "menu",
       "voltar",
@@ -61,42 +61,42 @@
     "opcoes": [
       {
         "numero": "1",
-        "titulo": "1️⃣Catálogo de serviços 💆‍♀️",
+        "titulo": "Catálogo de serviços 💆‍♀️",
         "tipo": "mensagem",
         "mensagem": "✨ *Catálogo de serviços da {empresa}* 💆‍♀️\n\nConfira abaixo nossos serviços disponíveis: 👇\n\n{catalogo_servicos}\n\n📅 Para fazer seu agendamento, volte ao *menu* e escolha a opção de *agendamento on-line*.\n\nDigite *menu* para retornar às opções. 🔄\n",
         "submenus": []
       },
       {
         "numero": "2",
-        "titulo": "2️⃣Endereço 📍",
+        "titulo": "Endereço 📍",
         "tipo": "mensagem",
         "mensagem": "📍 *Endereço da {empresa}*\n\nEstamos localizados em:\n\n{endereco}\n\n📌 *Ponto de referência:*\n{ponto_referencia}\n\n🗺️ *Google Maps:*\n{maps_url}\n\nDigite *menu* para retornar às opções. 🔄\n",
         "submenus": []
       },
       {
         "numero": "3",
-        "titulo": "3️⃣Fazer agendamento on-line 📅",
+        "titulo": "Fazer agendamento on-line 📅",
         "tipo": "mensagem",
         "mensagem": "📅 *Agendamento on-line*\n\nPara fazer seu agendamento, acesse o link abaixo: 👇\n\n{agendamento_url}\n\nPelo link, você poderá escolher o serviço desejado 💆‍♀️, a data 📆 e o horário disponível ⏰ diretamente no app *MinhaAgenda*.\n\nÉ rápido, simples e prático! ✨\n\nDigite *menu* para retornar às opções. 🔄\n",
         "submenus": []
       },
       {
         "numero": "4",
-        "titulo": "4️⃣Horário de funcionamento ⏰",
+        "titulo": "Horário de funcionamento ⏰",
         "tipo": "mensagem",
         "mensagem": "⏰ *Horário de funcionamento*\n\nNosso atendimento funciona nos seguintes horários: 👇\n\n{horario_funcionamento}\n\nSerá um prazer atender você! ✨💖\n\nDigite *menu* para retornar às opções. 🔄\n",
         "submenus": []
       },
       {
         "numero": "5",
-        "titulo": "5️⃣Falar com um atendente 👩‍💼",
+        "titulo": "Falar com um atendente 👩‍💼",
         "tipo": "humano",
         "mensagem": "👩‍💼 *Certo! Vou chamar um atendente para te ajudar.*\n\nNossa equipe vai dar continuidade ao seu atendimento assim que possível. 💬✨\n\nAguarde um momento, por favor. ⏳💖\n\nDigite *menu* para retornar às opções. 🔄\n",
         "submenus": []
       },
       {
         "numero": "6",
-        "titulo": "6️⃣Salmo do dia 🙏",
+        "titulo": "Salmo do dia 🙏",
         "tipo": "salmo",
         "mensagem": "",
         "submenus": []

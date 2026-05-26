@@ -1,11 +1,10 @@
 const clientesRepository = require('./repositories/clientesRepository');
 const mensagensRepository = require('./repositories/mensagensRepository');
-const quizRepository = require('./repositories/quizRepository');
 const logger = require('./logger');
 const menu = require('./menu');
-const quiz = require('./quiz');
 const config = require('./config');
 const teste = require('./teste');
+const { getStatus } = require('./status');
 const {
   extractTelefone,
   getChatIdFromMessage,
@@ -31,6 +30,10 @@ function clienteAutorizado(telefone) {
   }
 
   return Boolean(menu.getSafety().responderTodosClientes);
+}
+
+function isContatoTestePermitido(telefone) {
+  return Boolean(config.modoTeste && config.isTelefoneNaListaPermitidos(telefone));
 }
 
 function addDaysToDateKey(dateKey, days) {
@@ -96,6 +99,77 @@ async function enviarMensagem(client, chatId, telefone, texto) {
   }
 }
 
+async function enviarMenuInicial(client, chatId, telefone, behavior) {
+  if (behavior.recepcaoAntesMenuAtiva) {
+    const mensagemRecepcao = menu.getMensagemRecepcaoAntesMenu();
+
+    if (mensagemRecepcao.trim()) {
+      await enviarMensagem(client, chatId, telefone, mensagemRecepcao);
+    }
+
+    const atraso = Math.max(0, Math.min(30000, Number(behavior.atrasoMenuInicialMs) || 0));
+
+    if (atraso > 0) {
+      await sleep(atraso);
+    }
+  }
+
+  await enviarMensagem(client, chatId, telefone, menu.getMenuPrincipal());
+
+  if (behavior.mensagemAutomaticaAposMenuAtiva) {
+    await enviarMensagemAutomaticaAposMenu(client, chatId, telefone, behavior);
+  }
+}
+
+async function enviarMensagemAutomaticaAposMenu(client, chatId, telefone, behavior) {
+  const atraso = Math.max(0, Math.min(30000, Number(behavior.mensagemAutomaticaAposMenuAtrasoMs) || 0));
+
+  if (atraso > 0) {
+    await sleep(atraso);
+  }
+
+  if (behavior.mensagemAutomaticaAposMenuTipo === 'salmo') {
+    await enviarMensagem(client, chatId, telefone, menu.getMensagemAutomaticaAposMenuComSalmo());
+    return;
+  }
+
+  const texto = menu.getMensagemAutomaticaAposMenu();
+
+  if (texto.trim()) {
+    await enviarMensagem(client, chatId, telefone, texto);
+  }
+}
+
+async function enviarMensagemAutomaticaEspera(client, chatId, telefone, behavior) {
+  if (!behavior.mensagemAutomaticaEsperaAtiva) {
+    return;
+  }
+
+  const atraso = Math.max(0, Math.min(30000, Number(behavior.mensagemAutomaticaEsperaAtrasoMs) || 0));
+
+  if (atraso > 0) {
+    await sleep(atraso);
+  }
+
+  if (behavior.mensagemAutomaticaEsperaTipo === 'salmo') {
+    logger.info(`Extra ao chamar atendente para ${telefone}: Salmo do Dia.`);
+    await enviarMensagem(client, chatId, telefone, menu.getSalmoDoDiaMensagem());
+    return;
+  }
+
+  if (behavior.mensagemAutomaticaEsperaTipo === 'biblia') {
+    logger.info(`Extra ao chamar atendente para ${telefone}: Palavra Biblica de Espera.`);
+    await enviarMensagem(client, chatId, telefone, menu.getMensagemAutomaticaEsperaComPalavraBiblica());
+    return;
+  }
+
+  const textoEspera = menu.getMensagemAutomaticaEspera();
+
+  if (textoEspera.trim()) {
+    await enviarMensagem(client, chatId, telefone, textoEspera);
+  }
+}
+
 async function obterNomeContato(message) {
   try {
     const contato = await message.getContact();
@@ -153,8 +227,6 @@ function montarTextoTeste(textoOriginal, isConversaComigo) {
     horario: '/horario',
     '5': '/5',
     atendente: '/atendente',
-    '6': '/6',
-    quiz: '/quiz',
     teste: '/teste'
   };
 
@@ -177,6 +249,24 @@ function deveIgnorarMensagemRecebida(message) {
   return false;
 }
 
+function mensagemFoiRecebidaAntesDoBotPronto(message) {
+  if (!message || !message.timestamp) {
+    return false;
+  }
+
+  const status = getStatus();
+  const readyReference = status.lastReadyAt || status.processStartedAt;
+  const readyTime = readyReference ? new Date(readyReference).getTime() : Date.now();
+  const messageTime = Number(message.timestamp) * 1000;
+
+  if (!Number.isFinite(messageTime) || !Number.isFinite(readyTime)) {
+    return false;
+  }
+
+  // Pequena tolerancia por causa do arredondamento do WhatsApp em segundos.
+  return messageTime < readyTime - 10000;
+}
+
 async function responderOpcaoMenu(client, chatId, telefone, opcao) {
   const resposta = menu.getRespostaOpcao(opcao);
 
@@ -192,6 +282,7 @@ async function responderOpcaoMenu(client, chatId, telefone, opcao) {
       clientesRepository.desativarMenu(telefone);
       clientesRepository.ativarModoHumano(telefone);
       logger.info(`Cliente ${telefone} entrou em modo de atendimento humano.`);
+      await enviarMensagemAutomaticaEspera(client, chatId, telefone, menu.getBehavior());
     }
 
     return;
@@ -202,10 +293,13 @@ async function responderOpcaoMenu(client, chatId, telefone, opcao) {
     return;
   }
 
-  if (resposta.tipo === 'quiz') {
-    const mensagemQuiz = quiz.iniciarQuiz(telefone);
-    await enviarMensagem(client, chatId, telefone, mensagemQuiz);
-    clientesRepository.desativarMenu(telefone);
+  if (resposta.tipo === 'salmo') {
+    const enviado = await enviarMensagem(client, chatId, telefone, resposta.mensagem);
+
+    if (enviado) {
+      clientesRepository.desativarMenu(telefone);
+    }
+
     return;
   }
 
@@ -217,28 +311,8 @@ async function responderOpcaoMenu(client, chatId, telefone, opcao) {
 }
 
 async function responderModoHumano(client, chatId, telefone, textoOriginal) {
-  const textoNormalizado = normalizeText(textoOriginal);
-  const estadoQuiz = quizRepository.obterOuCriar(telefone);
-
   if (menu.isMenuTrigger(textoOriginal)) {
     await enviarMensagem(client, chatId, telefone, menu.getModoHumanoMensagem());
-    return;
-  }
-
-  // Mantem o quiz disponivel porque a mensagem da opcao 5 oferece essa alternativa.
-  if (estadoQuiz.ativo) {
-    const respostaQuiz = quiz.processarResposta(telefone, textoOriginal);
-
-    if (respostaQuiz.respondeu) {
-      await enviarMensagem(client, chatId, telefone, respostaQuiz.mensagem);
-    }
-
-    return;
-  }
-
-  if (textoNormalizado === '6') {
-    const mensagemQuiz = quiz.iniciarQuiz(telefone);
-    await enviarMensagem(client, chatId, telefone, mensagemQuiz);
   }
 }
 
@@ -264,6 +338,11 @@ async function handleIncomingMessage(client, message) {
       return;
     }
 
+    if (mensagemFoiRecebidaAntesDoBotPronto(message)) {
+      logger.warn(`Mensagem ignorada de ${telefone}: recebida antes do bot ficar pronto.`);
+      return;
+    }
+
     if (!clienteAutorizado(telefone)) {
       logger.warn(`Mensagem ignorada de ${telefone}: telefone fora da lista permitida.`);
       return;
@@ -272,35 +351,36 @@ async function handleIncomingMessage(client, message) {
     const cliente = clientesRepository.obterOuCriar(telefone, dadosContato.nome);
     const hoje = getTodayKey();
     const behavior = menu.getBehavior();
+    const contatoTestePermitido = isContatoTestePermitido(telefone);
 
     mensagensRepository.registrarRecebida(telefone, textoOriginal);
 
     if (cliente.modo_humano === 1) {
-      await responderModoHumano(client, chatId, telefone, textoOriginal);
+      if (contatoTestePermitido && (menu.isMenuTrigger(textoOriginal) || menu.isGreeting(textoOriginal))) {
+        clientesRepository.desativarModoHumano(telefone);
+      } else {
+        await responderModoHumano(client, chatId, telefone, textoOriginal);
+        return;
+      }
+    }
+
+    if (contatoTestePermitido && menu.isGreeting(textoOriginal)) {
+      clientesRepository.limparSilencio(telefone);
+      clientesRepository.marcarMenuEnviado(telefone, hoje, getMenuExpiraEm(behavior));
+      await enviarMenuInicial(client, chatId, telefone, behavior);
+      logger.info(`Contato de teste ${telefone} recebeu menu inicial sem aplicar silencio.`);
       return;
     }
 
     if (menu.isMenuTrigger(textoOriginal)) {
-      quiz.encerrarQuiz(telefone);
+      clientesRepository.limparSilencio(telefone);
       clientesRepository.marcarMenuEnviado(telefone, hoje, getMenuExpiraEm(behavior));
       await enviarMensagem(client, chatId, telefone, menu.getMenuPrincipal());
       return;
     }
 
-    if (clientesRepository.estaSilenciado(telefone, hoje)) {
+    if (!contatoTestePermitido && clientesRepository.estaSilenciado(telefone, hoje)) {
       logger.info(`Cliente ${telefone} esta silenciado ate o proximo ciclo do menu.`);
-      return;
-    }
-
-    const estadoQuiz = quizRepository.obterOuCriar(telefone);
-
-    if (estadoQuiz.ativo) {
-      const respostaQuiz = quiz.processarResposta(telefone, textoOriginal);
-
-      if (respostaQuiz.respondeu) {
-        await enviarMensagem(client, chatId, telefone, respostaQuiz.mensagem);
-      }
-
       return;
     }
 
@@ -312,7 +392,7 @@ async function handleIncomingMessage(client, message) {
 
     if (deveEnviarMenu) {
       clientesRepository.marcarMenuEnviado(telefone, hoje, getMenuExpiraEm(behavior));
-      await enviarMensagem(client, chatId, telefone, menu.getMenuPrincipal());
+      await enviarMenuInicial(client, chatId, telefone, behavior);
       return;
     }
 
@@ -320,12 +400,12 @@ async function handleIncomingMessage(client, message) {
     const respostaOpcao = menu.getRespostaOpcao(textoOpcao);
     const menuAtivo = clientesRepository.menuEstaAtivo(telefone, hoje);
 
-    if (respostaOpcao && menuAtivo) {
+    if (respostaOpcao && (menuAtivo || contatoTestePermitido)) {
       await responderOpcaoMenu(client, chatId, telefone, textoOriginal.trim());
       return;
     }
 
-    if (respostaOpcao && !menuAtivo) {
+    if (respostaOpcao && !menuAtivo && !contatoTestePermitido) {
       logger.info(`Opcao ${textoOpcao} ignorada para ${telefone}: menu nao esta ativo.`);
       return;
     }
@@ -336,9 +416,21 @@ async function handleIncomingMessage(client, message) {
     }
 
     if (menuAtivo) {
+      if (contatoTestePermitido) {
+        await enviarMensagem(client, chatId, telefone, menu.getMensagemGenerica());
+        logger.info(`Contato de teste ${telefone} nao foi silenciado apos mensagem fora do menu.`);
+        return;
+      }
+
       const silencioAte = getSilencioAteData(hoje, behavior.intervaloMenuDias);
       clientesRepository.silenciarAteData(telefone, silencioAte);
       logger.info(`Cliente ${telefone} ignorou o menu. Silenciado ate ${silencioAte}.`);
+      return;
+    }
+
+    if (contatoTestePermitido) {
+      await enviarMensagem(client, chatId, telefone, menu.getMensagemGenerica());
+      logger.info(`Contato de teste ${telefone} recebeu resposta generica fora da janela do menu.`);
       return;
     }
 
@@ -390,6 +482,33 @@ async function handleOutgoingMessage(client, message) {
         return;
       }
 
+      if (normalizeText(textoTeste) === '/ola') {
+        mensagensRepository.registrarComando(telefoneControle, textoOriginal);
+        await enviarMenuInicial(client, chatId, telefoneControle, menu.getBehavior());
+        logger.info(`Comando de teste /ola processado com pausa para ${telefoneControle}.`);
+        return;
+      }
+
+      const comandoTesteNormalizado = normalizeText(textoTeste);
+      const opcaoTeste = comandoTesteNormalizado.startsWith('/') ? comandoTesteNormalizado.slice(1) : '';
+      const respostaOpcaoTeste = /^\d+(\.\d+)*$/.test(opcaoTeste) ? menu.getRespostaOpcao(opcaoTeste) : null;
+
+      if (
+        comandoTesteNormalizado === '/atendente' ||
+        (respostaOpcaoTeste && respostaOpcaoTeste.tipo === 'humano')
+      ) {
+        mensagensRepository.registrarComando(telefoneControle, textoOriginal);
+        clientesRepository.obterOuCriar(telefoneControle, dadosContato.nome);
+        await responderOpcaoMenu(
+          client,
+          chatId,
+          telefoneControle,
+          respostaOpcaoTeste ? opcaoTeste : (menu.getPrimeiraOpcaoPorTipo('humano') || '5')
+        );
+        logger.info(`Comando de teste de atendente processado para ${telefoneControle}.`);
+        return;
+      }
+
       const respostaTeste = teste.obterRespostaTeste(telefoneControle, textoTeste);
 
       if (respostaTeste) {
@@ -413,7 +532,6 @@ async function handleOutgoingMessage(client, message) {
     clientesRepository.obterOuCriar(telefoneControle);
     mensagensRepository.registrarComando(telefoneControle, textoOriginal);
     clientesRepository.desativarModoHumano(telefoneControle);
-    quiz.encerrarQuiz(telefoneControle);
 
     await enviarMensagem(
       client,
